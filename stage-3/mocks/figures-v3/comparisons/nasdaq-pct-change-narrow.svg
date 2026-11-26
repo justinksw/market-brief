@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360.00" height="450.00" viewBox="0 0 360.00 450.00" role="img" aria-labelledby="title desc">
+<title>Nasdaq Composite: percentage change among the top 10</title>
+<desc>Nasdaq Composite: percentage change among the top 10. Nasdaq Composite top 10 · Wednesday 25 Nov 2026 official regular-session closes
+Versus Tuesday 24 Nov official close · US dollars (USD)</desc>
+<rect width="360.00" height="450.00" fill="#F6F4EF"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="400.00" stroke="#CFCBC3" stroke-width="1" stroke-linecap="round"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="132.62" y1="12.00" x2="132.62" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="253.24" y1="12.00" x2="253.24" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<text x="12.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">BioNexus (BGLC)</text>
+<text x="348.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+117.24%</text>
+<rect x="12.00" y="28.00" width="282.83" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Radiopharm (RADX)</text>
+<text x="348.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+62.00%</text>
+<rect x="12.00" y="68.00" width="149.57" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">NeuroSense (NRSN)</text>
+<text x="348.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+60.00%</text>
+<rect x="12.00" y="108.00" width="144.74" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">LeonaBio (LONA)</text>
+<text x="348.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+58.48%</text>
+<rect x="12.00" y="148.00" width="141.08" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Erayak (RAYA)</text>
+<text x="348.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+54.15%</text>
+<rect x="12.00" y="188.00" width="130.63" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Focus Universal (FCUV)</text>
+<text x="348.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+53.12%</text>
+<rect x="12.00" y="228.00" width="128.15" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Nexus (NXAT)</text>
+<text x="348.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+52.08%</text>
+<rect x="12.00" y="268.00" width="125.64" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Aligos (ALGS)</text>
+<text x="348.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+51.68%</text>
+<rect x="12.00" y="308.00" width="124.68" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Metals Royalty (TMCR)</text>
+<text x="348.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+45.03%</text>
+<rect x="12.00" y="348.00" width="108.63" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Park Ha (BYAH)</text>
+<text x="348.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+45.00%</text>
+<rect x="12.00" y="388.00" width="108.56" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">0%</text>
+<text x="132.62" y="436.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">50%</text>
+<text x="253.24" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">100%</text>
+</svg>

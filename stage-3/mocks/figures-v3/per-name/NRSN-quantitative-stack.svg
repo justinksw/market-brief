@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="369.67" height="398.00" viewBox="0 0 369.67 398.00" role="img" aria-labelledby="title desc">
+<title>NeuroSense Therapeutics Ltd. (NRSN) — quantitative charts</title>
+<desc>52-week range, 14-day RSI, and position versus moving averages for NeuroSense Therapeutics Ltd. (NRSN). Wednesday 25 Nov 2026 official regular-session close  ·  US dollars (USD)</desc>
+<rect width="369.67" height="398.00" fill="#F6F4EF"/>
+<line x1="16.00" y1="130.00" x2="353.67" y2="130.00" stroke="#CFCBC3" stroke-width="1" stroke-linecap="round"/>
+<line x1="16.00" y1="260.00" x2="353.67" y2="260.00" stroke="#CFCBC3" stroke-width="1" stroke-linecap="round"/>
+<text x="20.00" y="14.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="start">52-week range</text>
+<text x="20.00" y="30.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#5A5E66" text-anchor="start">Low and high of the past year, with the close marked</text>
+<rect x="28.00" y="76.00" width="322.67" height="12.00" rx="6" fill="#EEEBE4"/>
+<rect x="28.00" y="76.00" width="13.41" height="12.00" rx="6" fill="#8A8478"/>
+<circle cx="41.41" cy="82.00" r="6.5" fill="#16181D" stroke="#F6F4EF" stroke-width="1.5"/>
+<text x="28.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="600" fill="#16181D" text-anchor="start">Close US$1.76</text>
+<text x="28.00" y="106.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#5A5E66" text-anchor="start">Low US$1.05</text>
+<text x="350.67" y="106.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#5A5E66" text-anchor="end">High US$24.80</text>
+<text x="20.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="start">14-day RSI</text>
+<text x="20.00" y="158.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#5A5E66" text-anchor="start">0–100 gauge of the past two weeks of official closes</text>
+<rect x="28.00" y="204.00" width="322.67" height="12.00" rx="6" fill="#EEEBE4"/>
+<line x1="126.40" y1="198.00" x2="126.40" y2="222.00" stroke="#6B675F" stroke-width="1" stroke-linecap="round"/>
+<text x="126.40" y="236.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">30</text>
+<line x1="252.26" y1="198.00" x2="252.26" y2="222.00" stroke="#6B675F" stroke-width="1" stroke-linecap="round"/>
+<text x="252.26" y="236.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">70</text>
+<text x="28.00" y="236.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="start">0</text>
+<text x="350.66" y="236.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="end">100</text>
+<circle cx="170.45" cy="210.00" r="6.5" fill="#16181D" stroke="#F6F4EF" stroke-width="1.5"/>
+<text x="170.45" y="190.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="600" fill="#16181D" text-anchor="middle">44.0</text>
+<text x="20.00" y="272.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="start">Close versus the 50-day and 200-day averages</text>
+<text x="20.00" y="288.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#5A5E66" text-anchor="start">Averages use official closes through Wednesday 25 November only</text>
+<line x1="28.00" y1="342.00" x2="350.67" y2="342.00" stroke="#CFCBC3" stroke-width="2" stroke-linecap="round"/>
+<rect x="100.28" y="337.00" width="10.00" height="10.00" rx="0" fill="#3F434C"/>
+<polygon points="307.96,335.00 314.96,342.00 307.96,349.00 300.96,342.00" fill="#8A8478"/>
+<circle cx="70.71" cy="342.00" r="6.5" fill="#16181D" stroke="#F6F4EF" stroke-width="1.5"/>
+<text x="105.28" y="362.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9.5" font-weight="600" fill="#3F434C" text-anchor="middle">50-day US$3.15</text>
+<text x="307.96" y="378.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9.5" font-weight="600" fill="#3F434C" text-anchor="middle">200-day US$11.30</text>
+<text x="70.71" y="326.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9.5" font-weight="600" fill="#16181D" text-anchor="middle">Close US$1.76</text>
+</svg>

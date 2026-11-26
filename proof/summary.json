@@ -1,6 +1,11 @@
 {
-  "scannedAt": "2026-11-26T05:39:04.136839Z",
+  "scannedAt": "2026-11-26T08:18:45.100639Z",
   "html": "/workspace/docs/index.html",
+  "staticChecks": {
+    "htmlLeaks": [],
+    "usesV3Css": true,
+    "hasPreviewBanner": true
+  },
   "engines": {
     "chromium": {
       "engine": "chromium",
@@ -9,7 +14,7 @@
       "overflow": [
         {
           "viewport": "320px",
-          "width": 320,
+          "height": 568,
           "results": [
             {
               "selector": "html",
@@ -36,49 +41,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
             },
             {
-              "selector": "#sources",
-              "scrollWidth": 320,
-              "clientWidth": 320,
-              "overflow": 0
-            }
-          ]
-        },
-        {
-          "viewport": "320px",
-          "width": 320,
-          "results": [
-            {
-              "selector": "html",
-              "scrollWidth": 320,
-              "clientWidth": 320,
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 288,
+              "clientWidth": 288,
               "overflow": 0
             },
             {
-              "selector": "body",
-              "scrollWidth": 320,
-              "clientWidth": 320,
-              "overflow": 0
-            },
-            {
-              "selector": ".masthead-wrap",
-              "scrollWidth": 320,
-              "clientWidth": 320,
-              "overflow": 0
-            },
-            {
-              "selector": "#snapshot",
-              "scrollWidth": 320,
-              "clientWidth": 320,
-              "overflow": 0
-            },
-            {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#hang-seng .index-charts",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
@@ -93,7 +68,7 @@
         },
         {
           "viewport": "360px",
-          "width": 360,
+          "height": 800,
           "results": [
             {
               "selector": "html",
@@ -120,7 +95,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
+              "scrollWidth": 328,
+              "clientWidth": 328,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 328,
+              "clientWidth": 328,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
               "scrollWidth": 328,
               "clientWidth": 328,
               "overflow": 0
@@ -135,7 +122,7 @@
         },
         {
           "viewport": "390px",
-          "width": 390,
+          "height": 844,
           "results": [
             {
               "selector": "html",
@@ -162,7 +149,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
+              "scrollWidth": 358,
+              "clientWidth": 358,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 358,
+              "clientWidth": 358,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
               "scrollWidth": 358,
               "clientWidth": 358,
               "overflow": 0
@@ -177,7 +176,7 @@
         },
         {
           "viewport": "430px",
-          "width": 430,
+          "height": 932,
           "results": [
             {
               "selector": "html",
@@ -204,7 +203,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
+              "scrollWidth": 398,
+              "clientWidth": 398,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 398,
+              "clientWidth": 398,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
               "scrollWidth": 398,
               "clientWidth": 398,
               "overflow": 0
@@ -219,7 +230,7 @@
         },
         {
           "viewport": "667px",
-          "width": 667,
+          "height": 390,
           "results": [
             {
               "selector": "html",
@@ -246,9 +257,21 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
               "scrollWidth": 544,
               "clientWidth": 544,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 544,
+              "clientWidth": 544,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
+              "scrollWidth": 627,
+              "clientWidth": 627,
               "overflow": 0
             },
             {
@@ -261,7 +284,7 @@
         },
         {
           "viewport": "1280px",
-          "width": 1280,
+          "height": 800,
           "results": [
             {
               "selector": "html",
@@ -288,9 +311,21 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
               "scrollWidth": 536,
               "clientWidth": 536,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 536,
+              "clientWidth": 536,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
+              "scrollWidth": 784,
+              "clientWidth": 784,
               "overflow": 0
             },
             {
@@ -305,43 +340,52 @@
       "tapTargets": [
         {
           "page": "320x568",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "320x720",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "360x800",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "390x844",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "430x932",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "667x390",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "1280x800",
-          "count": 19,
+          "count": 27,
           "below44": []
         }
       ],
       "firstScreen": [
         {
           "viewportH": 568,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 255.328125,
@@ -369,6 +413,7 @@
             "fullyInView": false,
             "fraction": 0.5054510602611717
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -408,72 +453,91 @@
         },
         {
           "viewportH": 720,
-          "masthead": {
-            "top": 38.390625,
-            "bottom": 255.328125,
-            "height": 216.9375,
-            "visiblePx": 216.9375,
+          "previewBanner": {
+            "top": -5425,
+            "bottom": -5386.609375,
+            "height": 38.390625,
+            "visiblePx": 0,
             "startsInView": true,
-            "fullyInView": true,
-            "fraction": 1
+            "fullyInView": false,
+            "fraction": 0
+          },
+          "masthead": {
+            "top": -5386.609375,
+            "bottom": -5169.671875,
+            "height": 216.9375,
+            "visiblePx": 0,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0
           },
           "snapshot": {
-            "top": 255.328125,
-            "bottom": 1636.453125,
+            "top": -5169.671875,
+            "bottom": -3788.546875,
             "height": 1381.125,
-            "visiblePx": 464.671875,
+            "visiblePx": 0,
             "startsInView": true,
             "fullyInView": false,
-            "fraction": 0.33644447461308713
+            "fraction": 0
           },
           "table": {
-            "top": 304.3125,
-            "bottom": 826,
+            "top": -5120.6875,
+            "bottom": -4599,
             "height": 521.6875,
-            "visiblePx": 415.6875,
+            "visiblePx": 0,
             "startsInView": true,
             "fullyInView": false,
-            "fraction": 0.7968132263088534
+            "fraction": 0
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
               "name": "Hang Seng Index",
-              "top": 304.3125,
-              "bottom": 471.234375,
+              "top": -5120.6875,
+              "bottom": -4953.765625,
               "height": 166.921875,
-              "visiblePx": 166.921875,
+              "visiblePx": 0,
               "startsInView": true,
-              "fullyInView": true,
-              "fraction": 1
+              "fullyInView": false,
+              "fraction": 0
             },
             {
               "i": 1,
               "name": "Dow Jones Industrial Average",
-              "top": 478.421875,
-              "bottom": 658.515625,
+              "top": -4946.578125,
+              "bottom": -4766.484375,
               "height": 180.09375,
-              "visiblePx": 180.09375,
+              "visiblePx": 0,
               "startsInView": true,
-              "fullyInView": true,
-              "fraction": 1
+              "fullyInView": false,
+              "fraction": 0
             },
             {
               "i": 2,
               "name": "Nasdaq Composite",
-              "top": 665.703125,
-              "bottom": 826,
+              "top": -4759.296875,
+              "bottom": -4599,
               "height": 160.296875,
-              "visiblePx": 54.296875,
+              "visiblePx": 0,
               "startsInView": true,
               "fullyInView": false,
-              "fraction": 0.3387269714397115
+              "fraction": 0
             }
           ],
           "viewport": "320x720"
         },
         {
           "viewportH": 800,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 215.734375,
@@ -501,6 +565,7 @@
             "fullyInView": true,
             "fraction": 1
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -540,9 +605,18 @@
         },
         {
           "viewportH": 844,
+          "previewBanner": {
+            "top": -55923,
+            "bottom": -55884.609375,
+            "height": 38.390625,
+            "visiblePx": 0,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0
+          },
           "masthead": {
-            "top": -36823.609375,
-            "bottom": -36646.171875,
+            "top": -55884.609375,
+            "bottom": -55707.171875,
             "height": 177.4375,
             "visiblePx": 0,
             "startsInView": true,
@@ -550,8 +624,8 @@
             "fraction": 0
           },
           "snapshot": {
-            "top": -36646.171875,
-            "bottom": -35483.09375,
+            "top": -55707.171875,
+            "bottom": -54544.09375,
             "height": 1163.078125,
             "visiblePx": 0,
             "startsInView": true,
@@ -559,20 +633,21 @@
             "fraction": 0
           },
           "table": {
-            "top": -36597.1875,
-            "bottom": -36140.796875,
+            "top": -55658.1875,
+            "bottom": -55201.796875,
             "height": 456.390625,
             "visiblePx": 0,
             "startsInView": true,
             "fullyInView": false,
             "fraction": 0
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
               "name": "Hang Seng Index",
-              "top": -36597.1875,
-              "bottom": -36436.890625,
+              "top": -55658.1875,
+              "bottom": -55497.890625,
               "height": 160.296875,
               "visiblePx": 0,
               "startsInView": true,
@@ -582,8 +657,8 @@
             {
               "i": 1,
               "name": "Dow Jones Industrial Average",
-              "top": -36429.703125,
-              "bottom": -36288.84375,
+              "top": -55490.703125,
+              "bottom": -55349.84375,
               "height": 140.859375,
               "visiblePx": 0,
               "startsInView": true,
@@ -593,8 +668,8 @@
             {
               "i": 2,
               "name": "Nasdaq Composite",
-              "top": -36281.65625,
-              "bottom": -36140.796875,
+              "top": -55342.65625,
+              "bottom": -55201.796875,
               "height": 140.859375,
               "visiblePx": 0,
               "startsInView": true,
@@ -606,6 +681,15 @@
         },
         {
           "viewportH": 932,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 199.15625,
@@ -633,6 +717,7 @@
             "fullyInView": true,
             "fraction": 1
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -672,6 +757,15 @@
         },
         {
           "viewportH": 390,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 154.390625,
@@ -699,6 +793,7 @@
             "fullyInView": false,
             "fraction": 0.8860322603366908
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -738,6 +833,15 @@
         },
         {
           "viewportH": 800,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 227.984375,
@@ -765,6 +869,7 @@
             "fullyInView": true,
             "fraction": 1
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -803,7 +908,25 @@
           "viewport": "1280x800"
         }
       ],
-      "webkitNote": null,
+      "contentChecks": {
+        "nasdaqChartTitles": [
+          "Nasdaq Composite: percentage change among the top 10",
+          "Nasdaq Composite: market value among the top 10"
+        ],
+        "hasNasdaqPeChart": false,
+        "hsiPeTitles": [
+          "Hang Seng Index: percentage change among the top 10",
+          "Hang Seng Index: market value among the top 10",
+          "Hang Seng Index: trailing P/E among names that have one"
+        ],
+        "hsiPeHas2015": false,
+        "hsiPeHas3690": false,
+        "hsiPeHas1997": false,
+        "tmcrHas200DayMark": false,
+        "previewBannerVisible": true
+      },
+      "contentRulesPass": true,
+      "heroNoCharts": true,
       "pass": true
     },
     "webkit": {
@@ -813,7 +936,7 @@
       "overflow": [
         {
           "viewport": "320px",
-          "width": 320,
+          "height": 568,
           "results": [
             {
               "selector": "html",
@@ -840,49 +963,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
             },
             {
-              "selector": "#sources",
-              "scrollWidth": 320,
-              "clientWidth": 320,
-              "overflow": 0
-            }
-          ]
-        },
-        {
-          "viewport": "320px",
-          "width": 320,
-          "results": [
-            {
-              "selector": "html",
-              "scrollWidth": 320,
-              "clientWidth": 320,
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 288,
+              "clientWidth": 288,
               "overflow": 0
             },
             {
-              "selector": "body",
-              "scrollWidth": 320,
-              "clientWidth": 320,
-              "overflow": 0
-            },
-            {
-              "selector": ".masthead-wrap",
-              "scrollWidth": 320,
-              "clientWidth": 320,
-              "overflow": 0
-            },
-            {
-              "selector": "#snapshot",
-              "scrollWidth": 320,
-              "clientWidth": 320,
-              "overflow": 0
-            },
-            {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#hang-seng .index-charts",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
@@ -897,7 +990,7 @@
         },
         {
           "viewport": "360px",
-          "width": 360,
+          "height": 800,
           "results": [
             {
               "selector": "html",
@@ -924,7 +1017,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
+              "scrollWidth": 328,
+              "clientWidth": 328,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 328,
+              "clientWidth": 328,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
               "scrollWidth": 328,
               "clientWidth": 328,
               "overflow": 0
@@ -939,7 +1044,7 @@
         },
         {
           "viewport": "390px",
-          "width": 390,
+          "height": 844,
           "results": [
             {
               "selector": "html",
@@ -966,7 +1071,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
+              "scrollWidth": 358,
+              "clientWidth": 358,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 358,
+              "clientWidth": 358,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
               "scrollWidth": 358,
               "clientWidth": 358,
               "overflow": 0
@@ -981,7 +1098,7 @@
         },
         {
           "viewport": "430px",
-          "width": 430,
+          "height": 932,
           "results": [
             {
               "selector": "html",
@@ -1008,7 +1125,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
+              "scrollWidth": 398,
+              "clientWidth": 398,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 398,
+              "clientWidth": 398,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
               "scrollWidth": 398,
               "clientWidth": 398,
               "overflow": 0
@@ -1023,7 +1152,7 @@
         },
         {
           "viewport": "667px",
-          "width": 667,
+          "height": 390,
           "results": [
             {
               "selector": "html",
@@ -1050,9 +1179,21 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
               "scrollWidth": 544,
               "clientWidth": 544,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 544,
+              "clientWidth": 544,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
+              "scrollWidth": 627,
+              "clientWidth": 627,
               "overflow": 0
             },
             {
@@ -1065,7 +1206,7 @@
         },
         {
           "viewport": "1280px",
-          "width": 1280,
+          "height": 800,
           "results": [
             {
               "selector": "html",
@@ -1092,9 +1233,21 @@
               "overflow": 0
             },
             {
-              "selector": "#name-liauto-1, .stock",
+              "selector": "#name-2015-hk-1",
               "scrollWidth": 536,
               "clientWidth": 536,
+              "overflow": 0
+            },
+            {
+              "selector": "#name-2015-hk-1 .name-chart",
+              "scrollWidth": 536,
+              "clientWidth": 536,
+              "overflow": 0
+            },
+            {
+              "selector": "#hang-seng .index-charts",
+              "scrollWidth": 784,
+              "clientWidth": 784,
               "overflow": 0
             },
             {
@@ -1109,43 +1262,52 @@
       "tapTargets": [
         {
           "page": "320x568",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "320x720",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "360x800",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "390x844",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "430x932",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "667x390",
-          "count": 19,
+          "count": 27,
           "below44": []
         },
         {
           "page": "1280x800",
-          "count": 19,
+          "count": 27,
           "below44": []
         }
       ],
       "firstScreen": [
         {
           "viewportH": 568,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 255.28125,
@@ -1173,6 +1335,7 @@
             "fullyInView": false,
             "fraction": 0.5064510321651464
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -1212,6 +1375,15 @@
         },
         {
           "viewportH": 720,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 255.28125,
@@ -1239,6 +1411,7 @@
             "fullyInView": false,
             "fraction": 0.798337734037446
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -1278,6 +1451,15 @@
         },
         {
           "viewportH": 800,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 215.6875,
@@ -1305,6 +1487,7 @@
             "fullyInView": true,
             "fraction": 1
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -1344,72 +1527,91 @@
         },
         {
           "viewportH": 844,
-          "masthead": {
-            "top": -35523.609375,
-            "bottom": -35365.9375,
-            "height": 157.671875,
-            "visiblePx": 0,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
             "startsInView": true,
-            "fullyInView": false,
-            "fraction": 0
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 196.0625,
+            "height": 157.671875,
+            "visiblePx": 157.671875,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
           },
           "snapshot": {
-            "top": -35365.9375,
-            "bottom": -34231.28125,
+            "top": 196.0625,
+            "bottom": 1330.71875,
             "height": 1134.65625,
-            "visiblePx": 0,
+            "visiblePx": 647.9375,
             "startsInView": true,
             "fullyInView": false,
-            "fraction": 0
+            "fraction": 0.5710429920956237
           },
           "table": {
-            "top": -35316.953125,
-            "bottom": -34861.796875,
+            "top": 245.046875,
+            "bottom": 700.203125,
             "height": 455.15625,
-            "visiblePx": 0,
+            "visiblePx": 455.15625,
             "startsInView": true,
-            "fullyInView": false,
-            "fraction": 0
+            "fullyInView": true,
+            "fraction": 1
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
               "name": "Hang Seng Index",
-              "top": -35316.953125,
-              "bottom": -35157.078125,
+              "top": 245.046875,
+              "bottom": 404.921875,
               "height": 159.875,
-              "visiblePx": 0,
+              "visiblePx": 159.875,
               "startsInView": true,
-              "fullyInView": false,
-              "fraction": 0
+              "fullyInView": true,
+              "fraction": 1
             },
             {
               "i": 1,
               "name": "Dow Jones Industrial Average",
-              "top": -35149.890625,
-              "bottom": -35009.4375,
+              "top": 412.109375,
+              "bottom": 552.5625,
               "height": 140.453125,
-              "visiblePx": 0,
+              "visiblePx": 140.453125,
               "startsInView": true,
-              "fullyInView": false,
-              "fraction": 0
+              "fullyInView": true,
+              "fraction": 1
             },
             {
               "i": 2,
               "name": "Nasdaq Composite",
-              "top": -35002.25,
-              "bottom": -34861.796875,
+              "top": 559.75,
+              "bottom": 700.203125,
               "height": 140.453125,
-              "visiblePx": 0,
+              "visiblePx": 140.453125,
               "startsInView": true,
-              "fullyInView": false,
-              "fraction": 0
+              "fullyInView": true,
+              "fraction": 1
             }
           ],
           "viewport": "390x844"
         },
         {
           "viewportH": 932,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 199.140625,
@@ -1437,6 +1639,7 @@
             "fullyInView": true,
             "fraction": 1
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -1476,6 +1679,15 @@
         },
         {
           "viewportH": 390,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 154.34375,
@@ -1503,6 +1715,7 @@
             "fullyInView": false,
             "fraction": 0.9547765384323545
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -1542,6 +1755,15 @@
         },
         {
           "viewportH": 800,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
           "masthead": {
             "top": 38.390625,
             "bottom": 227.96875,
@@ -1569,6 +1791,7 @@
             "fullyInView": true,
             "fraction": 1
           },
+          "chartsInHero": false,
           "rows": [
             {
               "i": 0,
@@ -1607,7 +1830,25 @@
           "viewport": "1280x800"
         }
       ],
-      "webkitNote": null,
+      "contentChecks": {
+        "nasdaqChartTitles": [
+          "Nasdaq Composite: percentage change among the top 10",
+          "Nasdaq Composite: market value among the top 10"
+        ],
+        "hasNasdaqPeChart": false,
+        "hsiPeTitles": [
+          "Hang Seng Index: percentage change among the top 10",
+          "Hang Seng Index: market value among the top 10",
+          "Hang Seng Index: trailing P/E among names that have one"
+        ],
+        "hsiPeHas2015": false,
+        "hsiPeHas3690": false,
+        "hsiPeHas1997": false,
+        "tmcrHas200DayMark": false,
+        "previewBannerVisible": true
+      },
+      "contentRulesPass": true,
+      "heroNoCharts": true,
       "pass": true
     }
   },
@@ -1617,6 +1858,13 @@
     "webkitPass": true,
     "webkitStatus": "OK",
     "overflowFails": 0,
-    "tapBelow44": 0
+    "tapBelow44": 0,
+    "contentRulesPass": true,
+    "heroNoCharts": true,
+    "staticLeaks": [],
+    "firstScreenNotes": {
+      "320x568_dow_fraction": 0.4973971889640812,
+      "667x390_nasdaq_starts_in_view": true
+    }
   }
 }

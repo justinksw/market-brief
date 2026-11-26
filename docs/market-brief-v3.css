@@ -1,4 +1,5 @@
-/* Market briefing newsletter v2. Static CSS for the public mock. */
+/* Market briefing newsletter v3. Static CSS for the public mock.
+   v2 typographic world, plus placement and styling for the locked charts. */
 
 :root {
   --paper: #f6f4ef;
@@ -867,4 +868,80 @@ details[open] summary::before {
   details .details-body {
     display: block;
   }
+}
+
+
+/* ---------- v3 charts (locked geometry; v2 tokens) ---------- */
+
+.chart-figure,
+.name-chart {
+  margin: 0.85rem 0 1.25rem;
+  max-width: 100%;
+}
+
+.chart-title {
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  letter-spacing: -0.012em;
+  line-height: 1.25;
+  color: var(--ink);
+  margin: 0 0 0.5rem;
+}
+
+.chart-frame {
+  width: 100%;
+  overflow: hidden;
+}
+
+.chart-frame svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.chart-frame svg text {
+  font-family: var(--font-sans);
+}
+
+.name-chart .chart-frame {
+  max-width: 28rem;
+}
+
+.chart-caption {
+  margin: 0.5rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--ink-3);
+}
+
+.index-charts {
+  margin-top: 0.35rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Specificity must beat `.chart-frame svg { display: block; }`. */
+.chart-frame svg.chart-wide {
+  display: none;
+}
+
+.chart-frame svg.chart-narrow {
+  display: block;
+}
+
+@media (min-width: 40rem) {
+  .chart-frame svg.chart-wide {
+    display: block;
+  }
+
+  .chart-frame svg.chart-narrow {
+    display: none;
+  }
+}
+
+.quant > .name-chart {
+  margin-top: 0.55rem;
 }

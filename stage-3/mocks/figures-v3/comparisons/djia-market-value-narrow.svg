@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360.00" height="450.00" viewBox="0 0 360.00 450.00" role="img" aria-labelledby="title desc">
+<title>Dow Jones Industrial Average: market value among the top 10</title>
+<desc>Dow Jones Industrial Average: market value among the top 10. Dow Jones Industrial Average top 10 · Wednesday 25 Nov 2026 official regular-session closes
+Versus Tuesday 24 Nov official close · US dollars (USD) Bar length uses a scale that can show both the largest and the smallest company on this list. Read the labeled amounts; a bar that looks twice as long is not necessarily twice as large.</desc>
+<rect width="360.00" height="450.00" fill="#F6F4EF"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="400.00" stroke="#CFCBC3" stroke-width="1" stroke-linecap="round"/>
+<line x1="37.90" y1="12.00" x2="37.90" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="109.38" y1="12.00" x2="109.38" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="180.85" y1="12.00" x2="180.85" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="275.33" y1="12.00" x2="275.33" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<text x="12.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">IBM</text>
+<text x="348.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$230.11 billion</text>
+<rect x="12.00" y="28.00" width="183.31" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Nike (NKE)</text>
+<text x="348.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$54.45 billion</text>
+<rect x="12.00" y="68.00" width="34.69" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Disney (DIS)</text>
+<text x="348.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$214.53 billion</text>
+<rect x="12.00" y="108.00" width="176.08" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Sherwin-Williams (SHW)</text>
+<text x="348.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$87.22 billion</text>
+<rect x="12.00" y="148.00" width="83.28" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Home Depot (HD)</text>
+<text x="348.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$360.48 billion</text>
+<rect x="12.00" y="188.00" width="229.60" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Salesforce (CRM)</text>
+<text x="348.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$162.30 billion</text>
+<rect x="12.00" y="228.00" width="147.31" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Visa (V)</text>
+<text x="348.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$791.83 billion</text>
+<rect x="12.00" y="268.00" width="310.74" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Travelers (TRV)</text>
+<text x="348.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$83.38 billion</text>
+<rect x="12.00" y="308.00" width="78.63" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">3M (MMM)</text>
+<text x="348.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$98.09 billion</text>
+<rect x="12.00" y="348.00" width="95.39" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">UnitedHealth (UNH)</text>
+<text x="348.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$310.19 billion</text>
+<rect x="12.00" y="388.00" width="214.10" height="10.00" rx="2" fill="#3F434C"/>
+<text x="37.90" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$50 billion</text>
+<text x="109.38" y="436.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$100 billion</text>
+<text x="180.85" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$200 billion</text>
+<text x="275.33" y="436.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$500 billion</text>
+</svg>
