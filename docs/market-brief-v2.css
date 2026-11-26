@@ -1,0 +1,870 @@
+/* Market briefing newsletter v2. Static CSS for the public mock. */
+
+:root {
+  --paper: #f6f4ef;
+  --paper-2: #eeebe4;
+  --takeaway: #e8e4db;
+  --ink: #16181d;
+  --ink-2: #3f434c;
+  --ink-3: #5a5e66;
+  --rule: #cfcbc3;
+  --rule-ui: #6b675f;
+  --focus: #16181d;
+  --font-serif: "Newsreader", "Noto Serif", "Noto Serif TC", "Noto Serif JP",
+    "Source Han Serif", "Iowan Old Style", Palatino, "Palatino Linotype",
+    Georgia, serif;
+  --font-sans: "Source Sans 3", "Noto Sans", "Noto Sans TC", "Noto Sans JP",
+    "Source Han Sans", "Segoe UI", system-ui, sans-serif;
+  --space: 1rem;
+  --measure: 36.5rem;
+  --measure-wide: 52rem;
+  --body-size: 1.0625rem;
+  --body-lead: 1.6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+  background: var(--paper);
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Language is set on <html lang>. Avoid English in CSS content. */
+html[lang^="zh"] body,
+html[lang^="ja"] body {
+  line-break: loose;
+  overflow-wrap: anywhere;
+}
+
+.preview-banner {
+  margin: 0;
+  padding: 0.55rem var(--space);
+  text-align: center;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.preview-banner-label {
+  display: inline-block;
+  min-height: 1.25rem;
+  line-height: 1.25rem;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: var(--body-size);
+  font-weight: 400;
+  line-height: var(--body-lead);
+  font-optical-sizing: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg,
+table {
+  max-width: 100%;
+}
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--space);
+  top: 0;
+  z-index: 10;
+  padding: 0.65rem 0.9rem;
+  min-height: 44px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transform: translateY(-150%);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0.45rem);
+  outline-color: var(--paper);
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding-left: var(--space);
+  padding-right: var(--space);
+}
+
+.wrap-wide {
+  max-width: var(--measure-wide);
+}
+
+.masthead-wrap .wrap {
+  padding-top: 0.7rem;
+  padding-bottom: 0;
+}
+
+main {
+  padding-bottom: 3rem;
+}
+
+/* ---------- Header (compact so the snapshot can start on the first screen) ---------- */
+
+.masthead {
+  padding: 0.15rem 0 0.55rem;
+  border-bottom: 2px solid var(--ink);
+}
+
+.masthead-title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 7vw, 2.6rem);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.masthead-subtitle {
+  margin: 0.2rem 0 0;
+  font-family: var(--font-serif);
+  font-size: clamp(0.95rem, 3.2vw, 1.15rem);
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.dateline {
+  margin: 0.45rem 0 0;
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  line-height: 1.4;
+  color: var(--ink);
+  max-width: 36.5rem;
+}
+
+.dateline strong {
+  font-weight: 600;
+}
+
+.disclaimer {
+  margin: 0.4rem 0 0;
+  padding: 0.35rem 0 0;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--ink);
+  max-width: 36.5rem;
+}
+
+/* ---------- In-page nav (after the snapshot, not in the hero) ---------- */
+
+.toc {
+  margin: 0.7rem 0 0;
+  padding: 0;
+  font-family: var(--font-sans);
+}
+
+.toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.15rem 0 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.1rem;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.toc a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.3rem 0.5rem;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+/* ---------- Sections ---------- */
+
+.section {
+  padding: 0.85rem 0 0.7rem;
+}
+
+.section-snapshot {
+  padding-top: 0.7rem;
+}
+
+.section-title {
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--ink);
+  font-family: var(--font-serif);
+  font-size: clamp(1.25rem, 4.6vw, 1.7rem);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  max-width: 36.5rem;
+}
+
+.prose-quiet p,
+.lead p,
+.sources-body p {
+  margin: 0 0 0.75rem;
+}
+
+.prose-quiet p:last-child,
+.lead p:last-child,
+.sources-body p:last-child {
+  margin-bottom: 0;
+}
+
+.lead {
+  margin: 0.7rem 0 0;
+  max-width: 36.5rem;
+}
+
+.up-count {
+  margin: 0 0 0.7rem;
+  font-size: 1.05rem;
+  max-width: 36.5rem;
+}
+
+.up-count strong {
+  font-weight: 600;
+}
+
+/* ---------- Snapshot ---------- */
+
+.snapshot {
+  margin: 0;
+}
+
+.snapshot-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.35;
+  font-variant-numeric: tabular-nums;
+}
+
+.snapshot-table caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.snapshot-table thead {
+  display: none;
+}
+
+.snapshot-table tbody tr {
+  display: block;
+  margin: 0 0 0.45rem;
+  padding: 0.45rem 0.6rem 0.5rem;
+  background: var(--paper-2);
+  border-left: 3px solid var(--rule-ui);
+}
+
+.snapshot-table tbody tr:last-child {
+  margin-bottom: 0;
+}
+
+.snapshot-table th,
+.snapshot-table td {
+  display: block;
+  padding: 0;
+  text-align: left;
+  font-weight: 400;
+  vertical-align: top;
+}
+
+.snapshot-table .index-name {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 0.6rem;
+  align-items: start;
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.25;
+  padding-bottom: 0.25rem;
+}
+
+.index-pct {
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums lining-nums;
+  letter-spacing: -0.02em;
+}
+
+.snapshot-table td {
+  display: grid;
+  grid-template-columns: 6.8rem 1fr;
+  column-gap: 0.55rem;
+  row-gap: 0;
+  padding: 0.08rem 0;
+  align-items: baseline;
+}
+
+.field-label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.field-value {
+  display: block;
+  color: var(--ink);
+}
+
+.chg {
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.chg-up,
+.chg-down {
+  color: var(--ink);
+}
+
+/* Hide the extra % on the name row once the table is a real table. */
+@media (min-width: 40rem) {
+  .index-pct {
+    display: none;
+  }
+}
+
+/* ---------- How to read (details / summary) ---------- */
+
+.method-block {
+  margin: 0 0 0.7rem;
+  max-width: 36.5rem;
+}
+
+.retrieval {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.glossary {
+  max-width: 36.5rem;
+}
+
+details {
+  margin: 0;
+  border-top: 1px solid var(--rule);
+}
+
+details:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+details summary {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.35rem 0;
+  font-family: var(--font-sans);
+  font-size: 0.98rem;
+  font-weight: 650;
+  line-height: 1.3;
+  cursor: pointer;
+  list-style: none;
+  color: var(--ink);
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: "";
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-right: 0.55rem;
+  border-right: 2px solid var(--ink-2);
+  border-bottom: 2px solid var(--ink-2);
+  transform: rotate(-45deg);
+  flex: 0 0 auto;
+}
+
+details[open] summary::before {
+  transform: rotate(45deg);
+  margin-top: -0.15rem;
+}
+
+.details-body {
+  padding: 0 0 0.75rem 1rem;
+  font-family: var(--font-serif);
+  color: var(--ink);
+}
+
+.details-body p {
+  margin: 0;
+}
+
+/* ---------- Takeaway ---------- */
+
+.takeaway {
+  margin: 0 0 0.9rem;
+  padding: 0.7rem 0.8rem 0.75rem;
+  background: var(--takeaway);
+  border-left: 3px solid var(--rule-ui);
+  max-width: 36.5rem;
+}
+
+.takeaway-label,
+.block-label {
+  display: block;
+  margin: 0 0 0.2rem;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.takeaway-body,
+.block-body {
+  margin: 0;
+}
+
+.takeaway-body p,
+.block-body p {
+  margin: 0 0 0.65rem;
+}
+
+.takeaway-body p:last-child,
+.block-body p:last-child {
+  margin-bottom: 0;
+}
+
+.list-lead {
+  margin: 0 0 0.9rem;
+  color: var(--ink);
+  max-width: 36.5rem;
+}
+
+/* ---------- Stock blocks ---------- */
+
+.stock-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 36.5rem;
+}
+
+.stock {
+  margin: 0;
+  padding: 1rem 0 1.1rem;
+  border-top: 1px solid var(--rule);
+}
+
+.stock:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.stock-head {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 0.6rem;
+  row-gap: 0.05rem;
+  align-items: baseline;
+  margin: 0 0 0.55rem;
+}
+
+.stock-rank {
+  grid-row: 1 / span 2;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+  padding-top: 0.25rem;
+}
+
+.stock-name {
+  grid-column: 2;
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.12rem, 4.2vw, 1.38rem);
+  font-weight: 550;
+  line-height: 1.22;
+  letter-spacing: -0.015em;
+  overflow-wrap: break-word;
+}
+
+.stock-ticker {
+  grid-column: 2;
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--ink-2);
+  letter-spacing: 0.02em;
+}
+
+.stock-pct {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  align-self: center;
+  font-family: var(--font-sans);
+  font-size: clamp(1.25rem, 5vw, 1.6rem);
+  font-weight: 650;
+  font-variant-numeric: tabular-nums lining-nums;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.verdict {
+  margin: 0 0 0.55rem;
+  padding: 0.55rem 0.7rem 0.6rem;
+  background: var(--paper-2);
+  border-left: 3px solid var(--ink);
+}
+
+.verdict .block-label {
+  color: var(--ink);
+}
+
+.verdict .block-body {
+  font-size: 1.02rem;
+  line-height: 1.45;
+}
+
+/* Compact figure row — scan layer, typographic, not a dashboard */
+.figure-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem 0.75rem;
+  margin: 0 0 0.7rem;
+  padding: 0.45rem 0 0.5rem;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.fig {
+  min-width: 0;
+}
+
+.fig-label {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  line-height: 1.2;
+}
+
+.fig-value {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.3;
+  overflow-wrap: break-word;
+}
+
+.quant,
+.qual {
+  margin: 0 0 0.65rem;
+}
+
+.qual {
+  margin-bottom: 0;
+}
+
+.prose-quiet {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink-3);
+}
+
+.quant .block-label,
+.qual .block-label {
+  margin-bottom: 0.15rem;
+}
+
+/* ---------- Sources + footer ---------- */
+
+.sources-body {
+  max-width: 36.5rem;
+}
+
+.page-foot {
+  margin: 1.75rem 0 0;
+  padding-top: 0.45rem;
+  border-top: 2px solid var(--ink);
+  max-width: 36.5rem;
+}
+
+.back-top {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.35rem 0.15rem;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.back-top:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+/* ---------- Wider phones / table ---------- */
+
+@media (min-width: 36rem) {
+  :root {
+    --space: 1.25rem;
+  }
+
+  .masthead-wrap .wrap {
+    padding-top: 0.9rem;
+  }
+
+  .figure-row {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+/* Table layout from 640px: landscape phones can scan three indexes in one view. */
+@media (min-width: 40rem) {
+  .snapshot-table {
+    font-size: 0.88rem;
+  }
+
+  .snapshot-table thead {
+    display: table-header-group;
+  }
+
+  .snapshot-table thead th {
+    display: table-cell;
+    text-align: left;
+    font-size: 0.68rem;
+    font-weight: 650;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    padding: 0 0.55rem 0.4rem 0;
+    border-bottom: 1px solid var(--ink);
+    vertical-align: bottom;
+    white-space: nowrap;
+  }
+
+  .snapshot-table thead th:nth-child(4) {
+    text-align: right;
+  }
+
+  .snapshot-table tbody tr {
+    display: table-row;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border-left: 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .snapshot-table th,
+  .snapshot-table td {
+    display: table-cell;
+    padding: 0.55rem 0.55rem 0.55rem 0;
+    vertical-align: top;
+  }
+
+  .snapshot-table td:nth-child(4) {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .snapshot-table .index-name {
+    font-size: 0.95rem;
+    padding-bottom: 0.55rem;
+    padding-right: 0.7rem;
+    display: table-cell;
+  }
+
+  .field-label {
+    display: none;
+  }
+
+  .field-value {
+    display: inline;
+  }
+
+  .snapshot-table td:nth-child(1) {
+    width: 22%;
+    padding-right: 0.9rem;
+  }
+}
+
+@media (min-width: 52rem) {
+  :root {
+    --space: 1.5rem;
+    --body-size: 1.125rem;
+  }
+
+  .masthead-wrap .wrap {
+    padding-top: 1.25rem;
+  }
+
+  .masthead {
+    padding-top: 0.2rem;
+    padding-bottom: 0.7rem;
+  }
+
+  .section-snapshot {
+    padding-top: 0.9rem;
+  }
+
+  main {
+    padding-bottom: 4rem;
+  }
+}
+
+/* Short viewports (including 667×390): tighten the hero so the snapshot starts on screen. */
+@media (max-height: 430px) {
+  .masthead-wrap .wrap {
+    padding-top: 0.4rem;
+  }
+
+  .masthead {
+    padding-bottom: 0.35rem;
+  }
+
+  .masthead-title {
+    font-size: 1.55rem;
+  }
+
+  .masthead-subtitle {
+    font-size: 0.95rem;
+    margin-top: 0.1rem;
+  }
+
+  .dateline {
+    margin-top: 0.3rem;
+    font-size: 0.85rem;
+  }
+
+  .disclaimer {
+    margin-top: 0.28rem;
+    padding-top: 0.25rem;
+    font-size: 0.82rem;
+  }
+
+  .section-snapshot {
+    padding-top: 0.4rem;
+  }
+
+  .section-title {
+    margin-bottom: 0.35rem;
+    font-size: 1.15rem;
+  }
+
+  .snapshot-table tbody tr {
+    padding: 0.35rem 0.5rem 0.4rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .snapshot-table thead th,
+  .snapshot-table th,
+  .snapshot-table td {
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .skip-link,
+  .toc,
+  .page-foot {
+    display: none;
+  }
+
+  .stock,
+  .takeaway,
+  .verdict,
+  .snapshot-table tbody tr,
+  details {
+    break-inside: avoid;
+  }
+
+  details {
+    open: 1;
+  }
+
+  details .details-body {
+    display: block;
+  }
+}
