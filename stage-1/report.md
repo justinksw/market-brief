@@ -1,4 +1,4 @@
-# Market briefing: Hang Seng, Dow Jones, and Nasdaq Composite gainers
+# Market briefing: Dow Jones, Nasdaq Composite, and Hang Seng gainers
 
 **As of Thursday 26 November 2026, about 09:39 HKT** (20:39 ET on Wednesday 25 November), with figures retrieved between 09:54:26 and 09:54:51 HKT (20:54 ET on 25 November). Hong Kong prices are last traded prices during the Thursday morning session and are delayed quotes, not official closes. US prices are official regular-session closes for Wednesday 25 November versus official closes on Tuesday 24 November. US cash equity markets were closed on Thursday 26 November for Thanksgiving. After-hours and overnight prints are not used. US Eastern times below are Eastern Standard Time (EST, UTC−5). All Hong Kong share prices are in Hong Kong dollars (HKD); all US share prices are in US dollars (USD). This is a market briefing, not investment advice.
 
@@ -6,11 +6,11 @@
 
 | Index | Level | Prior official close | Change | Session high / low |
 | --- | ---: | ---: | ---: | --- |
-| Hang Seng Index | 22,288.99 (morning last, not official close) | 21,966.01 (Wed 25 Nov official close) | +322.98, **+1.47%** | 22,321.26 / 22,217.01 |
 | Dow Jones Industrial Average | 50,182.95 (Wed 25 Nov official close) | 50,018.70 (Tue 24 Nov) | +164.25, **+0.33%** | 50,395.24 / 48,913.74 |
 | Nasdaq Composite | 23,585.80 (Wed 25 Nov official close) | 23,733.54 (Tue 24 Nov) | −147.73, **−0.62%** | 23,627.45 / 22,632.40 |
+| Hang Seng Index | 22,288.99 (morning last, not official close) | 21,966.01 (Wed 25 Nov official close) | +322.98, **+1.47%** | 22,321.26 / 22,217.01 |
 
-The Hang Seng opened at 22,234.89 on Thursday morning and was still in continuous trading when these last prices were stamped (quote times 09:39:20–09:39:26 HKT; 20:39 ET on 25 November). The Dow’s official index stamp is 16:32:17 ET on 25 November (05:32:17 HKT on 26 November). The Nasdaq Composite’s official index stamp is 17:15:59 ET on 25 November (06:15:59 HKT on 26 November).
+The Dow’s official index stamp is 16:32:17 ET on 25 November (05:32:17 HKT on 26 November). The Nasdaq Composite’s official index stamp is 17:15:59 ET on 25 November (06:15:59 HKT on 26 November). The Hang Seng opened at 22,234.89 on Thursday morning and was still in continuous trading when these last prices were stamped (quote times 09:39:20–09:39:26 HKT; 20:39 ET on 25 November).
 
 On Wednesday in New York, major US indexes recovered most of a steep early decline as a pullback in AI-related stocks lost momentum into the close. The Dow finished slightly higher; the Nasdaq Composite still ended lower. Overnight, Brent crude settled at US$94.61 a barrel, up 3.5%, and New York (WTI) crude at US$83.68, up nearly 2%, with the market citing concern about crude supply and the situation in the Middle East.
 
@@ -35,136 +35,6 @@ On Wednesday in New York, major US indexes recovered most of a steep early decli
 **14-day RSI.** This is a common 0–100 gauge of how strongly a share has risen or fallen over the past two weeks of official closes, also ending on Wednesday 25 November. Readings near 70 or higher mean recent gains have been strong; readings near 30 or lower mean recent declines have been strong. It describes recent movement; it is not a forecast.
 
 **Other company and market figures.** Deliveries are vehicles handed over to customers. Revenue is sales. Gross margin is the share of sales left after the direct cost of the goods sold. A net loss means costs exceeded income in that period. Brent and New York (WTI) crude are widely quoted international oil-futures prices, in US dollars per barrel.
-
----
-
-## Hang Seng Index
-
-**89 of the 95 Hang Seng Index constituents were higher** in Thursday morning trade, compared with Wednesday’s official close. Six were lower.
-
-**Takeaway.** Most members of the index were higher on Thursday morning, and the index itself was up 1.47% in this snapshot, taken while the Hong Kong market was still open. These are morning last prices, not official closes.
-
-The 10 largest percentage gains among those rising stocks were:
-
-### 1. Li Auto Inc. (2015.HK) — +10.75%
-
-**Verdict.** Thursday’s jump follows Wednesday’s results: more cars handed over to customers, and a smaller loss, but the company is still not making a profit, and the shares remain well below their high for the past year.
-
-**Quantitative.** Last HK$46.96, up HK$4.56 from Wednesday’s official close of HK$42.40. Session so far: open HK$46.00, high HK$47.12, low HK$44.82. Market value about HK$91.79 billion. No trailing P/E is shown; the company reported a net loss for the third quarter. 52-week range HK$40.08–HK$78.90. About 7.35 million shares had changed hands by the quote time.
-
-That market value makes Li Auto a mid-sized company among these Hang Seng names — sizable, but not in the trillion-dollar class of the oil producers below. There is no trailing P/E because the company is not currently profitable on a recent-earnings basis: a P/E compares the share price with profits, and a business that is still reporting a net loss has no such figure to show.
-
-Technicals: 50-day average HK$44.97, 200-day average HK$56.12. Wednesday’s close of HK$42.40 was below both averages; Thursday’s last of HK$46.96 had moved above the 50-day average but remained below the 200-day average. RSI 41.7, a mid-range reading. The last price was in the lower part of the 52-week range.
-
-**Qualitative.** Li Auto designs and sells electric and range-extended passenger cars in China, mainly under its own brand through a retail and charging network. The share price jumped after the company, on Wednesday 25 November, reported third-quarter results: deliveries of 99,964 vehicles (up 7.2% from a year earlier), revenue of RMB28.8 billion, a gross margin of 16.7%, and a net loss of RMB309.7 million, down 50.4% from a year earlier. Deliveries are the cars handed to customers; the 7.2% rise means more vehicles went out than in the same quarter a year earlier. Revenue of RMB28.8 billion is the company’s sales in the quarter. A gross margin of 16.7% means that, after the direct cost of those vehicles, about 17% of sales was left. The net loss of RMB309.7 million means costs still exceeded income, but that shortfall was about half as large as a year earlier. The stock is still well below its high for the past year, and the business remains loss-making in a crowded China electric-vehicle market.
-
-### 2. Meituan (3690.HK) — +4.31%
-
-**Verdict.** A large internet platform bounced with other Hong Kong technology and consumer-internet names this morning, after a weak stretch, with no same-day company news found to explain the move. The shares are still near their low for the year.
-
-**Quantitative.** Last HK$64.10, up HK$2.65 from HK$61.45. Session so far: open HK$63.15, high HK$64.85, low HK$63.00. Market value about HK$395.62 billion. No trailing P/E is shown. 52-week range HK$63.00–HK$108.00 — the shares were trading just above the 52-week low. About 7.38 million shares had changed hands.
-
-At about HK$396 billion, Meituan is one of the larger companies on this Hang Seng list, several times the size of Li Auto and far bigger than a typical mid-sized name. No trailing P/E is shown, and no recent sales or profit figures are shown here.
-
-Technicals: 50-day average HK$72.14, 200-day average HK$79.53. Both Wednesday’s close and Thursday’s last were below those averages. RSI 28.5, a weak reading, after quite sharp recent declines. The last price was near the 52-week low.
-
-**Qualitative.** Meituan is a large Chinese internet platform whose services include food delivery, in-store deals, and travel bookings. No same-day company news was found to explain the move. The rise came after a weaker Wednesday close and alongside a broader bounce in Hong Kong technology and consumer-internet names.
-
-### 3. PetroChina Co. Ltd. (0857.HK) — +4.27%
-
-**Verdict.** These shares rose with the overnight jump in oil prices. This is a very large, currently profitable oil producer, and what it earns still depends on the price of crude.
-
-**Quantitative.** Last HK$9.765, up HK$0.40 from HK$9.365. Session so far: open HK$9.52, high HK$9.765, low HK$9.47. Market value about HK$1.79 trillion. Trailing P/E 8.42. 52-week range HK$7.86–HK$12.22. About 14.19 million shares had changed hands.
-
-The market value of about HK$1.79 trillion makes PetroChina one of the largest companies in this briefing — a national-scale oil producer, not a mid-sized name. A trailing P/E of 8.42 means investors are paying about eight times the last twelve months’ earnings, a lower figure than for many of the other names here, and typical of a large oil producer whose profits move with the oil price.
-
-Technicals: 50-day average HK$9.96, 200-day average HK$10.10. Both Wednesday’s close and Thursday’s last were below those averages, with Thursday’s last just under the 50-day average. RSI 32.9, a weak reading. The last price was around the middle of the 52-week range.
-
-**Qualitative.** PetroChina is China’s largest oil and gas producer. The Hong Kong line is an H-share, meaning a Hong Kong-listed line of a mainland Chinese company. The rise follows a jump in international crude prices: Brent settled 3.5% higher and New York crude nearly 2% higher, with reports pointing to supply worries tied to the Middle East. A producer’s earnings move with the oil price, so a reversal in crude would likely take pressure off — or put pressure back on — the shares.
-
-### 4. CNOOC Ltd. (0883.HK) — +4.26%
-
-**Verdict.** Like PetroChina, this very large offshore oil producer rose with crude, but its shares are still in a weaker patch than they were earlier in the year.
-
-**Quantitative.** Last HK$21.52, up HK$0.88 from HK$20.64. Session so far: open HK$21.00, high HK$21.56, low HK$20.98. Market value about HK$1.02 trillion. Trailing P/E 6.72. 52-week range HK$19.92–HK$30.98. About 8.03 million shares had changed hands.
-
-At about HK$1.02 trillion, CNOOC is also one of the largest companies here, in the same class as PetroChina. A trailing P/E of 6.72 means investors are paying about seven times the last twelve months’ earnings, even lower than PetroChina’s 8.42, and again typical of a large oil producer whose profits move with crude.
-
-Technicals: 50-day average HK$23.45, 200-day average HK$24.96. Both Wednesday’s close and Thursday’s last were below those averages. RSI 23.5, a weak reading, after quite sharp recent declines. The last price was in the lower part of the 52-week range.
-
-**Qualitative.** CNOOC is China’s main offshore oil and gas producer. Like PetroChina, it rose with the overnight rebound in crude. The same oil-price and Middle East supply risks apply.
-
-### 5. China Hongqiao Group Ltd. (1378.HK) — +3.48%
-
-**Verdict.** A modest rise in a large, profitable aluminium producer that has already fallen a long way this year, with no same-day company news found to explain the move.
-
-**Quantitative.** Last HK$16.63, up HK$0.56 from HK$16.07. Session so far: open HK$16.35, high HK$16.65, low HK$16.30. Market value about HK$161.50 billion. Trailing P/E 5.58. 52-week range HK$16.20–HK$41.36 — close to the 52-week low. About 3.16 million shares had changed hands.
-
-The market value of about HK$161.50 billion makes China Hongqiao a large company, though well below the oil producers above. A trailing P/E of 5.58 means investors are paying about six times the last twelve months’ earnings, the lowest such figure among these Hang Seng names, and typical of a metals producer whose profits can swing with the aluminium price.
-
-Technicals: 50-day average HK$20.02, 200-day average HK$27.11. Both Wednesday’s close and Thursday’s last were below those averages. RSI 23.8, a weak reading, after quite sharp recent declines. The last price was near the 52-week low.
-
-**Qualitative.** China Hongqiao is one of the world’s largest producers of aluminium. No same-day company news was found to explain the move. The shares have already fallen sharply over the past year, so the bounce may reflect a firmer wider market rather than a new event at the company. Aluminium prices and demand in China remain the main swing factors.
-
-### 6. Lenovo Group Ltd. (0992.HK) — +3.45%
-
-**Verdict.** This looks like a bounce after Wednesday’s sharp drop, not new good news from the company: analysts had just cut the prices they think the shares are worth, and the stock is still well below its recent typical levels.
-
-**Quantitative.** Last HK$16.78, up HK$0.56 from HK$16.22. Session so far: open HK$17.15, high HK$17.25, low HK$16.75. Market value about HK$215.22 billion. Trailing P/E 15.39. 52-week range HK$8.52–HK$37.88. About 23.34 million shares had changed hands, the heaviest volume among these 10 names by the quote time.
-
-At about HK$215 billion, Lenovo is a large company among these Hang Seng names, bigger than Li Auto or China Hongqiao but well short of the oil giants. A trailing P/E of 15.39 means investors are paying about 15 times the last twelve months’ earnings, a mid-range figure on this list — higher than for the oil and metals names and lower than for the drugs and chip-manufacturing names below.
-
-Technicals: 50-day average HK$26.30, 200-day average HK$20.48. Both Wednesday’s close and Thursday’s last were below those averages, after a steep recent decline. RSI 33.8, a weak reading. The last price was in the lower part of the 52-week range.
-
-**Qualitative.** Lenovo is one of the world’s largest personal-computer makers and also sells servers, storage, and phones. Thursday’s gain looks like a partial rebound after a sharp drop on Wednesday, when the shares closed at HK$16.22 after analysts — including at Morgan Stanley — cut the prices they think the shares are worth, citing weaker near-term demand for personal computers. The stock opened above HK$17 and then faded, so the rebound was not one-way.
-
-### 7. Zijin Mining Group Co. Ltd. (2899.HK) — +3.45%
-
-**Verdict.** A large, profitable miner edged up with firmer gold-related stocks this morning; the shares are still near their low for the year, and no same-day company news was found to explain the move.
-
-**Quantitative.** Last HK$23.38, up HK$0.78 from HK$22.60. Session so far: open HK$23.38, high HK$23.62, low HK$23.20. Market value about HK$621.69 billion. Trailing P/E 8.15. 52-week range HK$22.30–HK$46.98 — near the 52-week low. About 9.30 million shares had changed hands.
-
-The market value of about HK$621.69 billion makes Zijin one of the larger companies on this Hang Seng list, behind only the oil producers and in a similar size class to Meituan. A trailing P/E of 8.15 means investors are paying about eight times the last twelve months’ earnings, close to PetroChina’s 8.42, and typical of a large miner whose profits move with metal prices.
-
-Technicals: 50-day average HK$29.79, 200-day average HK$34.18. Both Wednesday’s close and Thursday’s last were below those averages. RSI 27.1, a weak reading, after quite sharp recent declines. The last price was near the 52-week low.
-
-**Qualitative.** Zijin Mining produces gold, copper, and other metals. No same-day company news was found to explain the move. Gold-related names were reported as firmer in early Hong Kong trade.
-
-### 8. Hua Hong Semiconductor Ltd. (1347.HK) — +3.28%
-
-**Verdict.** Chip-related stocks in Hong Kong bounced together, lifting this still-profitable chip manufacturer, but the shares remain near their low for the year, and investors are paying a much higher price for each dollar of recent profit than for the other names here.
-
-**Quantitative.** Last HK$64.55, up HK$2.05 from HK$62.50. Session so far: open HK$64.00, high HK$66.50, low HK$64.00. Market value about HK$150.80 billion. Trailing P/E 140.33, much higher than most other names on this list. 52-week range HK$57.50–HK$219.60. About 10.80 million shares had changed hands.
-
-At about HK$151 billion, Hua Hong is a large company, in a similar size class to China Hongqiao. A trailing P/E of 140.33 means investors are paying about 140 times the last twelve months’ earnings — a much higher figure than for any other name in this briefing. That can happen when recent profits are slim relative to the share price, or when the price still reflects hopes for future growth even after a deep decline from the high of the past year.
-
-Technicals: 50-day average HK$85.00, 200-day average HK$114.61. Both Wednesday’s close and Thursday’s last were below those averages. RSI 37.7, a weak reading. The last price was near the 52-week low.
-
-**Qualitative.** Hua Hong is a Chinese semiconductor foundry — it manufactures chips designed by other companies. No same-day company news was found to explain the move. The rise came with a broader bounce in Hong Kong technology names after a weak Wednesday in Asia and a late recovery in US chip stocks. Investors are paying a very high price for each dollar of recent profit, and the range for the past year already includes a deep decline, so the shares can move a long way in either direction.
-
-### 9. Sino Biopharmaceutical Ltd. (1177.HK) — +3.20%
-
-**Verdict.** A modest rise in a mid-sized, profitable drugs company that sits around the middle of its range for the year, with no same-day company news found to explain the move.
-
-**Quantitative.** Last HK$5.325, up HK$0.165 from HK$5.16. Session so far: open HK$5.19, high HK$5.345, low HK$5.185. Market value about HK$94.70 billion. Trailing P/E 35.50. 52-week range HK$4.19–HK$7.30. About 8.80 million shares had changed hands.
-
-The market value of about HK$94.70 billion puts Sino Biopharmaceutical in the same mid-to-large size group as Li Auto and Wharf REIC, well below the oil and mining giants. A trailing P/E of 35.50 means investors are paying about 36 times the last twelve months’ earnings, a higher figure than for the oil and metals names here, and more in line with a drugs company whose value depends on its medicines in development as well as on current profit.
-
-Technicals: 50-day average HK$5.36, 200-day average HK$5.43. Wednesday’s close was below both averages; Thursday’s last was just under the 50-day average and still a little below the 200-day average. RSI 45.0, a mid-range reading. The last price was around the middle of the 52-week range.
-
-**Qualitative.** Sino Biopharmaceutical (listed in the Hang Seng Index under the short name SBP Group) develops and sells medicines, including treatments in areas such as liver disease and oncology. No same-day company news was found to explain the move. News about medicines in development, and China drug-pricing and approval decisions, are the usual drivers for a business of this type.
-
-### 10. Wharf Real Estate Investment Company Ltd. (1997.HK) — +3.08%
-
-**Verdict.** Unlike most other Hang Seng leaders this morning, these shares were already in a stronger patch — near their high for the year — and no same-day company news was found to explain the move.
-
-**Quantitative.** Last HK$33.48, up HK$1.00 from HK$32.48. Session so far: open HK$32.48, high HK$33.50, low HK$32.30. Market value about HK$101.65 billion. No trailing P/E is shown. 52-week range HK$20.26–HK$34.82 — close to the top of that range. About 587,000 shares had changed hands.
-
-At about HK$102 billion, Wharf REIC is a sizable Hong Kong property company, in the same broad size group as Li Auto and Sino Biopharmaceutical. No trailing P/E is shown, and no recent rental-income or occupancy figures are shown here.
-
-Technicals: 50-day average HK$31.06, 200-day average HK$27.29. Both Wednesday’s close and Thursday’s last were above those averages. RSI 60.3, a moderately strong reading. The last price was near the 52-week high.
-
-**Qualitative.** Wharf REIC owns and runs large Hong Kong retail and office properties, including Harbour City and Times Square. No same-day company news was found to explain the move. Hong Kong retail spending, tourism, and office vacancy are the usual swing factors for a landlord of this type.
 
 ---
 
@@ -425,6 +295,138 @@ The market value of about US$22.63 million makes Park Ha a small company, larger
 Technicals: 50-day average US$2.09, 200-day average US$6.69. Wednesday’s close was below both averages. RSI 37.3, a weak reading. The close was near the 52-week low.
 
 **Qualitative.** Park Ha is a China-based skincare company that sells its own-brand cosmetics through stores and franchise partners. No same-day company news was found to explain the move. The range for the past year is extremely wide, and volume was several times the recent average. As with the other very small names on this list, sudden moves can unwind quickly if there is no lasting change in the business.
+
+---
+
+## Hang Seng Index
+
+**89 of the 95 Hang Seng Index constituents were higher** in Thursday morning trade, compared with Wednesday’s official close. Six were lower.
+
+**Takeaway.** Most members of the index were higher on Thursday morning, and the index itself was up 1.47% in this snapshot, taken while the Hong Kong market was still open. These are morning last prices, not official closes.
+
+The 10 largest percentage gains among those rising stocks were:
+
+### 1. Li Auto Inc. (2015.HK) — +10.75%
+
+**Verdict.** Thursday’s jump follows Wednesday’s results: more cars handed over to customers, and a smaller loss, but the company is still not making a profit, and the shares remain well below their high for the past year.
+
+**Quantitative.** Last HK$46.96, up HK$4.56 from Wednesday’s official close of HK$42.40. Session so far: open HK$46.00, high HK$47.12, low HK$44.82. Market value about HK$91.79 billion. No trailing P/E is shown; the company reported a net loss for the third quarter. 52-week range HK$40.08–HK$78.90. About 7.35 million shares had changed hands by the quote time.
+
+That market value makes Li Auto a mid-sized company among these Hang Seng names — sizable, but not in the trillion-dollar class of the oil producers below. There is no trailing P/E because the company is not currently profitable on a recent-earnings basis: a P/E compares the share price with profits, and a business that is still reporting a net loss has no such figure to show.
+
+Technicals: 50-day average HK$44.97, 200-day average HK$56.12. Wednesday’s close of HK$42.40 was below both averages; Thursday’s last of HK$46.96 had moved above the 50-day average but remained below the 200-day average. RSI 41.7, a mid-range reading. The last price was in the lower part of the 52-week range.
+
+**Qualitative.** Li Auto designs and sells electric and range-extended passenger cars in China, mainly under its own brand through a retail and charging network. The share price jumped after the company, on Wednesday 25 November, reported third-quarter results: deliveries of 99,964 vehicles (up 7.2% from a year earlier), revenue of RMB28.8 billion, a gross margin of 16.7%, and a net loss of RMB309.7 million, down 50.4% from a year earlier. Deliveries are the cars handed to customers; the 7.2% rise means more vehicles went out than in the same quarter a year earlier. Revenue of RMB28.8 billion is the company’s sales in the quarter. A gross margin of 16.7% means that, after the direct cost of those vehicles, about 17% of sales was left. The net loss of RMB309.7 million means costs still exceeded income, but that shortfall was about half as large as a year earlier. The stock is still well below its high for the past year, and the business remains loss-making in a crowded China electric-vehicle market.
+
+### 2. Meituan (3690.HK) — +4.31%
+
+**Verdict.** A large internet platform bounced with other Hong Kong technology and consumer-internet names this morning, after a weak stretch, with no same-day company news found to explain the move. The shares are still near their low for the year.
+
+**Quantitative.** Last HK$64.10, up HK$2.65 from HK$61.45. Session so far: open HK$63.15, high HK$64.85, low HK$63.00. Market value about HK$395.62 billion. No trailing P/E is shown. 52-week range HK$63.00–HK$108.00 — the shares were trading just above the 52-week low. About 7.38 million shares had changed hands.
+
+At about HK$396 billion, Meituan is one of the larger companies on this Hang Seng list, several times the size of Li Auto and far bigger than a typical mid-sized name. No trailing P/E is shown, and no recent sales or profit figures are shown here.
+
+Technicals: 50-day average HK$72.14, 200-day average HK$79.53. Both Wednesday’s close and Thursday’s last were below those averages. RSI 28.5, a weak reading, after quite sharp recent declines. The last price was near the 52-week low.
+
+**Qualitative.** Meituan is a large Chinese internet platform whose services include food delivery, in-store deals, and travel bookings. No same-day company news was found to explain the move. The rise came after a weaker Wednesday close and alongside a broader bounce in Hong Kong technology and consumer-internet names.
+
+### 3. PetroChina Co. Ltd. (0857.HK) — +4.27%
+
+**Verdict.** These shares rose with the overnight jump in oil prices. This is a very large, currently profitable oil producer, and what it earns still depends on the price of crude.
+
+**Quantitative.** Last HK$9.765, up HK$0.40 from HK$9.365. Session so far: open HK$9.52, high HK$9.765, low HK$9.47. Market value about HK$1.79 trillion. Trailing P/E 8.42. 52-week range HK$7.86–HK$12.22. About 14.19 million shares had changed hands.
+
+The market value of about HK$1.79 trillion makes PetroChina one of the largest companies in this briefing — a national-scale oil producer, not a mid-sized name. A trailing P/E of 8.42 means investors are paying about eight times the last twelve months’ earnings, a lower figure than for many of the other names here, and typical of a large oil producer whose profits move with the oil price.
+
+Technicals: 50-day average HK$9.96, 200-day average HK$10.10. Both Wednesday’s close and Thursday’s last were below those averages, with Thursday’s last just under the 50-day average. RSI 32.9, a weak reading. The last price was around the middle of the 52-week range.
+
+**Qualitative.** PetroChina is China’s largest oil and gas producer. The Hong Kong line is an H-share, meaning a Hong Kong-listed line of a mainland Chinese company. The rise follows a jump in international crude prices: Brent settled 3.5% higher and New York crude nearly 2% higher, with reports pointing to supply worries tied to the Middle East. A producer’s earnings move with the oil price, so a reversal in crude would likely take pressure off — or put pressure back on — the shares.
+
+### 4. CNOOC Ltd. (0883.HK) — +4.26%
+
+**Verdict.** Like PetroChina, this very large offshore oil producer rose with crude, but its shares are still in a weaker patch than they were earlier in the year.
+
+**Quantitative.** Last HK$21.52, up HK$0.88 from HK$20.64. Session so far: open HK$21.00, high HK$21.56, low HK$20.98. Market value about HK$1.02 trillion. Trailing P/E 6.72. 52-week range HK$19.92–HK$30.98. About 8.03 million shares had changed hands.
+
+At about HK$1.02 trillion, CNOOC is also one of the largest companies here, in the same class as PetroChina. A trailing P/E of 6.72 means investors are paying about seven times the last twelve months’ earnings, even lower than PetroChina’s 8.42, and again typical of a large oil producer whose profits move with crude.
+
+Technicals: 50-day average HK$23.45, 200-day average HK$24.96. Both Wednesday’s close and Thursday’s last were below those averages. RSI 23.5, a weak reading, after quite sharp recent declines. The last price was in the lower part of the 52-week range.
+
+**Qualitative.** CNOOC is China’s main offshore oil and gas producer. Like PetroChina, it rose with the overnight rebound in crude. The same oil-price and Middle East supply risks apply.
+
+### 5. China Hongqiao Group Ltd. (1378.HK) — +3.48%
+
+**Verdict.** A modest rise in a large, profitable aluminium producer that has already fallen a long way this year, with no same-day company news found to explain the move.
+
+**Quantitative.** Last HK$16.63, up HK$0.56 from HK$16.07. Session so far: open HK$16.35, high HK$16.65, low HK$16.30. Market value about HK$161.50 billion. Trailing P/E 5.58. 52-week range HK$16.20–HK$41.36 — close to the 52-week low. About 3.16 million shares had changed hands.
+
+The market value of about HK$161.50 billion makes China Hongqiao a large company, though well below the oil producers above. A trailing P/E of 5.58 means investors are paying about six times the last twelve months’ earnings, the lowest such figure among these Hang Seng names, and typical of a metals producer whose profits can swing with the aluminium price.
+
+Technicals: 50-day average HK$20.02, 200-day average HK$27.11. Both Wednesday’s close and Thursday’s last were below those averages. RSI 23.8, a weak reading, after quite sharp recent declines. The last price was near the 52-week low.
+
+**Qualitative.** China Hongqiao is one of the world’s largest producers of aluminium. No same-day company news was found to explain the move. The shares have already fallen sharply over the past year, so the bounce may reflect a firmer wider market rather than a new event at the company. Aluminium prices and demand in China remain the main swing factors.
+
+### 6. Lenovo Group Ltd. (0992.HK) — +3.45%
+
+**Verdict.** This looks like a bounce after Wednesday’s sharp drop, not new good news from the company: analysts had just cut the prices they think the shares are worth, and the stock is still well below its recent typical levels.
+
+**Quantitative.** Last HK$16.78, up HK$0.56 from HK$16.22. Session so far: open HK$17.15, high HK$17.25, low HK$16.75. Market value about HK$215.22 billion. Trailing P/E 15.39. 52-week range HK$8.52–HK$37.88. About 23.34 million shares had changed hands, the heaviest volume among these 10 names by the quote time.
+
+At about HK$215 billion, Lenovo is a large company among these Hang Seng names, bigger than Li Auto or China Hongqiao but well short of the oil giants. A trailing P/E of 15.39 means investors are paying about 15 times the last twelve months’ earnings, a mid-range figure on this list — higher than for the oil and metals names and lower than for the drugs and chip-manufacturing names below.
+
+Technicals: 50-day average HK$26.30, 200-day average HK$20.48. Both Wednesday’s close and Thursday’s last were below those averages, after a steep recent decline. RSI 33.8, a weak reading. The last price was in the lower part of the 52-week range.
+
+**Qualitative.** Lenovo is one of the world’s largest personal-computer makers and also sells servers, storage, and phones. Thursday’s gain looks like a partial rebound after a sharp drop on Wednesday, when the shares closed at HK$16.22 after analysts — including at Morgan Stanley — cut the prices they think the shares are worth, citing weaker near-term demand for personal computers. The stock opened above HK$17 and then faded, so the rebound was not one-way.
+
+### 7. Zijin Mining Group Co. Ltd. (2899.HK) — +3.45%
+
+**Verdict.** A large, profitable miner edged up with firmer gold-related stocks this morning; the shares are still near their low for the year, and no same-day company news was found to explain the move.
+
+**Quantitative.** Last HK$23.38, up HK$0.78 from HK$22.60. Session so far: open HK$23.38, high HK$23.62, low HK$23.20. Market value about HK$621.69 billion. Trailing P/E 8.15. 52-week range HK$22.30–HK$46.98 — near the 52-week low. About 9.30 million shares had changed hands.
+
+The market value of about HK$621.69 billion makes Zijin one of the larger companies on this Hang Seng list, behind only the oil producers and in a similar size class to Meituan. A trailing P/E of 8.15 means investors are paying about eight times the last twelve months’ earnings, close to PetroChina’s 8.42, and typical of a large miner whose profits move with metal prices.
+
+Technicals: 50-day average HK$29.79, 200-day average HK$34.18. Both Wednesday’s close and Thursday’s last were below those averages. RSI 27.1, a weak reading, after quite sharp recent declines. The last price was near the 52-week low.
+
+**Qualitative.** Zijin Mining produces gold, copper, and other metals. No same-day company news was found to explain the move. Gold-related names were reported as firmer in early Hong Kong trade.
+
+### 8. Hua Hong Semiconductor Ltd. (1347.HK) — +3.28%
+
+**Verdict.** Chip-related stocks in Hong Kong bounced together, lifting this still-profitable chip manufacturer, but the shares remain near their low for the year, and investors are paying a much higher price for each dollar of recent profit than for the other names here.
+
+**Quantitative.** Last HK$64.55, up HK$2.05 from HK$62.50. Session so far: open HK$64.00, high HK$66.50, low HK$64.00. Market value about HK$150.80 billion. Trailing P/E 140.33, much higher than most other names on this list. 52-week range HK$57.50–HK$219.60. About 10.80 million shares had changed hands.
+
+At about HK$151 billion, Hua Hong is a large company, in a similar size class to China Hongqiao. A trailing P/E of 140.33 means investors are paying about 140 times the last twelve months’ earnings — a much higher figure than for any other name in this briefing. That can happen when recent profits are slim relative to the share price, or when the price still reflects hopes for future growth even after a deep decline from the high of the past year.
+
+Technicals: 50-day average HK$85.00, 200-day average HK$114.61. Both Wednesday’s close and Thursday’s last were below those averages. RSI 37.7, a weak reading. The last price was near the 52-week low.
+
+**Qualitative.** Hua Hong is a Chinese semiconductor foundry — it manufactures chips designed by other companies. No same-day company news was found to explain the move. The rise came with a broader bounce in Hong Kong technology names after a weak Wednesday in Asia and a late recovery in US chip stocks. Investors are paying a very high price for each dollar of recent profit, and the range for the past year already includes a deep decline, so the shares can move a long way in either direction.
+
+### 9. Sino Biopharmaceutical Ltd. (1177.HK) — +3.20%
+
+**Verdict.** A modest rise in a mid-sized, profitable drugs company that sits around the middle of its range for the year, with no same-day company news found to explain the move.
+
+**Quantitative.** Last HK$5.325, up HK$0.165 from HK$5.16. Session so far: open HK$5.19, high HK$5.345, low HK$5.185. Market value about HK$94.70 billion. Trailing P/E 35.50. 52-week range HK$4.19–HK$7.30. About 8.80 million shares had changed hands.
+
+The market value of about HK$94.70 billion puts Sino Biopharmaceutical in the same mid-to-large size group as Li Auto and Wharf REIC, well below the oil and mining giants. A trailing P/E of 35.50 means investors are paying about 36 times the last twelve months’ earnings, a higher figure than for the oil and metals names here, and more in line with a drugs company whose value depends on its medicines in development as well as on current profit.
+
+Technicals: 50-day average HK$5.36, 200-day average HK$5.43. Wednesday’s close was below both averages; Thursday’s last was just under the 50-day average and still a little below the 200-day average. RSI 45.0, a mid-range reading. The last price was around the middle of the 52-week range.
+
+**Qualitative.** Sino Biopharmaceutical (listed in the Hang Seng Index under the short name SBP Group) develops and sells medicines, including treatments in areas such as liver disease and oncology. No same-day company news was found to explain the move. News about medicines in development, and China drug-pricing and approval decisions, are the usual drivers for a business of this type.
+
+### 10. Wharf Real Estate Investment Company Ltd. (1997.HK) — +3.08%
+
+**Verdict.** Unlike most other Hang Seng leaders this morning, these shares were already in a stronger patch — near their high for the year — and no same-day company news was found to explain the move.
+
+**Quantitative.** Last HK$33.48, up HK$1.00 from HK$32.48. Session so far: open HK$32.48, high HK$33.50, low HK$32.30. Market value about HK$101.65 billion. No trailing P/E is shown. 52-week range HK$20.26–HK$34.82 — close to the top of that range. About 587,000 shares had changed hands.
+
+At about HK$102 billion, Wharf REIC is a sizable Hong Kong property company, in the same broad size group as Li Auto and Sino Biopharmaceutical. No trailing P/E is shown, and no recent rental-income or occupancy figures are shown here.
+
+Technicals: 50-day average HK$31.06, 200-day average HK$27.29. Both Wednesday’s close and Thursday’s last were above those averages. RSI 60.3, a moderately strong reading. The last price was near the 52-week high.
+
+**Qualitative.** Wharf REIC owns and runs large Hong Kong retail and office properties, including Harbour City and Times Square. No same-day company news was found to explain the move. Hong Kong retail spending, tourism, and office vacancy are the usual swing factors for a landlord of this type.
+
+---
 
 ## Sources
 

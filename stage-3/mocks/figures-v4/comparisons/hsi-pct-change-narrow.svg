@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360.00" height="450.00" viewBox="0 0 360.00 450.00" role="img" aria-labelledby="title desc">
+<title>Hang Seng Index: percentage change among the top 10</title>
+<desc>Hang Seng Index: percentage change among the top 10. Hang Seng Index top 10 · Thursday 26 Nov 2026 morning lasts (delayed), not official closes
+Versus Wednesday 25 Nov official close · Hong Kong dollars (HKD)</desc>
+<rect width="360.00" height="450.00" fill="#F6F4EF"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="400.00" stroke="#CFCBC3" stroke-width="1" stroke-linecap="round"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="143.55" y1="12.00" x2="143.55" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="275.10" y1="12.00" x2="275.10" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<text x="12.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Li Auto (2015.HK)</text>
+<text x="348.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+10.75%</text>
+<rect x="12.00" y="28.00" width="282.83" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Meituan (3690.HK)</text>
+<text x="348.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+4.31%</text>
+<rect x="12.00" y="68.00" width="113.39" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">PetroChina (0857.HK)</text>
+<text x="348.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+4.27%</text>
+<rect x="12.00" y="108.00" width="112.35" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">CNOOC (0883.HK)</text>
+<text x="348.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+4.26%</text>
+<rect x="12.00" y="148.00" width="112.08" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">China Hongqiao (1378.HK)</text>
+<text x="348.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+3.48%</text>
+<rect x="12.00" y="188.00" width="91.56" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Lenovo (0992.HK)</text>
+<text x="348.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+3.45%</text>
+<rect x="12.00" y="228.00" width="90.77" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Zijin Mining (2899.HK)</text>
+<text x="348.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+3.45%</text>
+<rect x="12.00" y="268.00" width="90.77" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Hua Hong (1347.HK)</text>
+<text x="348.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+3.28%</text>
+<rect x="12.00" y="308.00" width="86.30" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Sino Biopharm (1177.HK)</text>
+<text x="348.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+3.20%</text>
+<rect x="12.00" y="348.00" width="84.19" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Wharf REIC (1997.HK)</text>
+<text x="348.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+3.08%</text>
+<rect x="12.00" y="388.00" width="81.03" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">0%</text>
+<text x="143.55" y="436.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">5%</text>
+<text x="275.10" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">10%</text>
+</svg>

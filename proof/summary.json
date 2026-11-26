@@ -1,9 +1,9 @@
 {
-  "scannedAt": "2026-11-26T08:18:45.100639Z",
+  "scannedAt": "2026-11-26T09:20:22.823304Z",
   "html": "/workspace/docs/index.html",
   "staticChecks": {
     "htmlLeaks": [],
-    "usesV3Css": true,
+    "usesV4Css": true,
     "hasPreviewBanner": true
   },
   "engines": {
@@ -41,19 +41,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
@@ -95,19 +95,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 328,
               "clientWidth": 328,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 328,
               "clientWidth": 328,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 328,
               "clientWidth": 328,
               "overflow": 0
@@ -149,19 +149,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 358,
               "clientWidth": 358,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 358,
               "clientWidth": 358,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 358,
               "clientWidth": 358,
               "overflow": 0
@@ -203,19 +203,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 398,
               "clientWidth": 398,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 398,
               "clientWidth": 398,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 398,
               "clientWidth": 398,
               "overflow": 0
@@ -257,19 +257,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 544,
               "clientWidth": 544,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 544,
               "clientWidth": 544,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 627,
               "clientWidth": 627,
               "overflow": 0
@@ -311,19 +311,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 536,
               "clientWidth": 536,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 536,
               "clientWidth": 536,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 784,
               "clientWidth": 784,
               "overflow": 0
@@ -397,12 +397,12 @@
           },
           "snapshot": {
             "top": 255.328125,
-            "bottom": 1636.453125,
-            "height": 1381.125,
+            "bottom": 1663.640625,
+            "height": 1408.3125,
             "visiblePx": 312.671875,
             "startsInView": true,
             "fullyInView": false,
-            "fraction": 0.2263892659969228
+            "fraction": 0.22201881684640307
           },
           "table": {
             "top": 304.3125,
@@ -417,32 +417,108 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 304.3125,
-              "bottom": 471.234375,
-              "height": 166.921875,
-              "visiblePx": 166.921875,
+              "bottom": 484.40625,
+              "height": 180.09375,
+              "visiblePx": 180.09375,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
-              "top": 478.421875,
-              "bottom": 658.515625,
-              "height": 180.09375,
-              "visiblePx": 89.578125,
+              "name": "Nasdaq Composite",
+              "top": 491.59375,
+              "bottom": 651.890625,
+              "height": 160.296875,
+              "visiblePx": 76.40625,
               "startsInView": true,
               "fullyInView": false,
-              "fraction": 0.4973971889640812
+              "fraction": 0.4766546447022127
             },
             {
               "i": 2,
-              "name": "Nasdaq Composite",
-              "top": 665.703125,
+              "name": "Hang Seng Index",
+              "top": 659.078125,
               "bottom": 826,
+              "height": 166.921875,
+              "visiblePx": 0,
+              "startsInView": false,
+              "fullyInView": false,
+              "fraction": 0
+            }
+          ],
+          "viewport": "320x568"
+        },
+        {
+          "viewportH": 568,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 255.328125,
+            "height": 216.9375,
+            "visiblePx": 216.9375,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 255.328125,
+            "bottom": 1663.640625,
+            "height": 1408.3125,
+            "visiblePx": 312.671875,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.22201881684640307
+          },
+          "table": {
+            "top": 304.3125,
+            "bottom": 826,
+            "height": 521.6875,
+            "visiblePx": 263.6875,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.5054510602611717
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 304.3125,
+              "bottom": 484.40625,
+              "height": 180.09375,
+              "visiblePx": 180.09375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
+              "name": "Nasdaq Composite",
+              "top": 491.59375,
+              "bottom": 651.890625,
               "height": 160.296875,
+              "visiblePx": 76.40625,
+              "startsInView": true,
+              "fullyInView": false,
+              "fraction": 0.4766546447022127
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 659.078125,
+              "bottom": 826,
+              "height": 166.921875,
               "visiblePx": 0,
               "startsInView": false,
               "fullyInView": false,
@@ -454,8 +530,84 @@
         {
           "viewportH": 720,
           "previewBanner": {
-            "top": -5425,
-            "bottom": -5386.609375,
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 255.328125,
+            "height": 216.9375,
+            "visiblePx": 216.9375,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 255.328125,
+            "bottom": 1663.640625,
+            "height": 1408.3125,
+            "visiblePx": 464.671875,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.3299494075356144
+          },
+          "table": {
+            "top": 304.3125,
+            "bottom": 826,
+            "height": 521.6875,
+            "visiblePx": 415.6875,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.7968132263088534
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 304.3125,
+              "bottom": 484.40625,
+              "height": 180.09375,
+              "visiblePx": 180.09375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
+              "name": "Nasdaq Composite",
+              "top": 491.59375,
+              "bottom": 651.890625,
+              "height": 160.296875,
+              "visiblePx": 160.296875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 659.078125,
+              "bottom": 826,
+              "height": 166.921875,
+              "visiblePx": 60.921875,
+              "startsInView": true,
+              "fullyInView": false,
+              "fraction": 0.3649723860338856
+            }
+          ],
+          "viewport": "320x720"
+        },
+        {
+          "viewportH": 720,
+          "previewBanner": {
+            "top": -5120,
+            "bottom": -5081.609375,
             "height": 38.390625,
             "visiblePx": 0,
             "startsInView": true,
@@ -463,8 +615,8 @@
             "fraction": 0
           },
           "masthead": {
-            "top": -5386.609375,
-            "bottom": -5169.671875,
+            "top": -5081.609375,
+            "bottom": -4864.671875,
             "height": 216.9375,
             "visiblePx": 0,
             "startsInView": true,
@@ -472,17 +624,17 @@
             "fraction": 0
           },
           "snapshot": {
-            "top": -5169.671875,
-            "bottom": -3788.546875,
-            "height": 1381.125,
+            "top": -4864.671875,
+            "bottom": -3456.359375,
+            "height": 1408.3125,
             "visiblePx": 0,
             "startsInView": true,
             "fullyInView": false,
             "fraction": 0
           },
           "table": {
-            "top": -5120.6875,
-            "bottom": -4599,
+            "top": -4815.6875,
+            "bottom": -4294,
             "height": 521.6875,
             "visiblePx": 0,
             "startsInView": true,
@@ -493,20 +645,9 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
-              "top": -5120.6875,
-              "bottom": -4953.765625,
-              "height": 166.921875,
-              "visiblePx": 0,
-              "startsInView": true,
-              "fullyInView": false,
-              "fraction": 0
-            },
-            {
-              "i": 1,
               "name": "Dow Jones Industrial Average",
-              "top": -4946.578125,
-              "bottom": -4766.484375,
+              "top": -4815.6875,
+              "bottom": -4635.59375,
               "height": 180.09375,
               "visiblePx": 0,
               "startsInView": true,
@@ -514,11 +655,22 @@
               "fraction": 0
             },
             {
-              "i": 2,
+              "i": 1,
               "name": "Nasdaq Composite",
-              "top": -4759.296875,
-              "bottom": -4599,
+              "top": -4628.40625,
+              "bottom": -4468.109375,
               "height": 160.296875,
+              "visiblePx": 0,
+              "startsInView": true,
+              "fullyInView": false,
+              "fraction": 0
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": -4460.921875,
+              "bottom": -4294,
+              "height": 166.921875,
               "visiblePx": 0,
               "startsInView": true,
               "fullyInView": false,
@@ -569,20 +721,20 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 264.71875,
-              "bottom": 431.640625,
-              "height": 166.921875,
-              "visiblePx": 166.921875,
+              "bottom": 425.015625,
+              "height": 160.296875,
+              "visiblePx": 160.296875,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
-              "top": 438.828125,
-              "bottom": 599.125,
+              "name": "Nasdaq Composite",
+              "top": 432.203125,
+              "bottom": 592.5,
               "height": 160.296875,
               "visiblePx": 160.296875,
               "startsInView": true,
@@ -591,9 +743,161 @@
             },
             {
               "i": 2,
-              "name": "Nasdaq Composite",
-              "top": 606.3125,
+              "name": "Hang Seng Index",
+              "top": 599.6875,
               "bottom": 766.609375,
+              "height": 166.921875,
+              "visiblePx": 166.921875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            }
+          ],
+          "viewport": "360x800"
+        },
+        {
+          "viewportH": 800,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 215.734375,
+            "height": 177.34375,
+            "visiblePx": 177.34375,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 215.734375,
+            "bottom": 1478.6875,
+            "height": 1262.953125,
+            "visiblePx": 584.265625,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.46261861460614384
+          },
+          "table": {
+            "top": 264.71875,
+            "bottom": 766.609375,
+            "height": 501.890625,
+            "visiblePx": 501.890625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 264.71875,
+              "bottom": 425.015625,
+              "height": 160.296875,
+              "visiblePx": 160.296875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
+              "name": "Nasdaq Composite",
+              "top": 432.203125,
+              "bottom": 592.5,
+              "height": 160.296875,
+              "visiblePx": 160.296875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 599.6875,
+              "bottom": 766.609375,
+              "height": 166.921875,
+              "visiblePx": 166.921875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            }
+          ],
+          "viewport": "360x800"
+        },
+        {
+          "viewportH": 844,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 215.828125,
+            "height": 177.4375,
+            "visiblePx": 177.4375,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 215.828125,
+            "bottom": 1378.90625,
+            "height": 1163.078125,
+            "visiblePx": 628.171875,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.5400943079382565
+          },
+          "table": {
+            "top": 264.8125,
+            "bottom": 721.203125,
+            "height": 456.390625,
+            "visiblePx": 456.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 264.8125,
+              "bottom": 405.671875,
+              "height": 140.859375,
+              "visiblePx": 140.859375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
+              "name": "Nasdaq Composite",
+              "top": 412.859375,
+              "bottom": 553.71875,
+              "height": 140.859375,
+              "visiblePx": 140.859375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 560.90625,
+              "bottom": 721.203125,
               "height": 160.296875,
               "visiblePx": 160.296875,
               "startsInView": true,
@@ -601,7 +905,7 @@
               "fraction": 1
             }
           ],
-          "viewport": "360x800"
+          "viewport": "390x844"
         },
         {
           "viewportH": 844,
@@ -645,10 +949,10 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": -55658.1875,
-              "bottom": -55497.890625,
-              "height": 160.296875,
+              "bottom": -55517.328125,
+              "height": 140.859375,
               "visiblePx": 0,
               "startsInView": true,
               "fullyInView": false,
@@ -656,9 +960,9 @@
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
-              "top": -55490.703125,
-              "bottom": -55349.84375,
+              "name": "Nasdaq Composite",
+              "top": -55510.140625,
+              "bottom": -55369.28125,
               "height": 140.859375,
               "visiblePx": 0,
               "startsInView": true,
@@ -667,10 +971,10 @@
             },
             {
               "i": 2,
-              "name": "Nasdaq Composite",
-              "top": -55342.65625,
+              "name": "Hang Seng Index",
+              "top": -55362.09375,
               "bottom": -55201.796875,
-              "height": 140.859375,
+              "height": 160.296875,
               "visiblePx": 0,
               "startsInView": true,
               "fullyInView": false,
@@ -701,12 +1005,12 @@
           },
           "snapshot": {
             "top": 199.15625,
-            "bottom": 1315.609375,
-            "height": 1116.453125,
+            "bottom": 1288.421875,
+            "height": 1089.265625,
             "visiblePx": 732.84375,
             "startsInView": true,
             "fullyInView": false,
-            "fraction": 0.6564035099995802
+            "fraction": 0.672786998120867
           },
           "table": {
             "top": 248.140625,
@@ -721,7 +1025,7 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 248.140625,
               "bottom": 389,
               "height": 140.859375,
@@ -732,7 +1036,7 @@
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
+              "name": "Nasdaq Composite",
               "top": 396.1875,
               "bottom": 537.046875,
               "height": 140.859375,
@@ -743,7 +1047,83 @@
             },
             {
               "i": 2,
+              "name": "Hang Seng Index",
+              "top": 544.234375,
+              "bottom": 685.09375,
+              "height": 140.859375,
+              "visiblePx": 140.859375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            }
+          ],
+          "viewport": "430x932"
+        },
+        {
+          "viewportH": 932,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 199.15625,
+            "height": 160.765625,
+            "visiblePx": 160.765625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 199.15625,
+            "bottom": 1288.421875,
+            "height": 1089.265625,
+            "visiblePx": 732.84375,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.672786998120867
+          },
+          "table": {
+            "top": 248.140625,
+            "bottom": 685.09375,
+            "height": 436.953125,
+            "visiblePx": 436.953125,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 248.140625,
+              "bottom": 389,
+              "height": 140.859375,
+              "visiblePx": 140.859375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
               "name": "Nasdaq Composite",
+              "top": 396.1875,
+              "bottom": 537.046875,
+              "height": 140.859375,
+              "visiblePx": 140.859375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
               "top": 544.234375,
               "bottom": 685.09375,
               "height": 140.859375,
@@ -797,36 +1177,112 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 220.3125,
-              "bottom": 289,
-              "height": 68.6875,
-              "visiblePx": 68.6875,
+              "bottom": 292.203125,
+              "height": 71.890625,
+              "visiblePx": 71.890625,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
-              "top": 289,
-              "bottom": 361.390625,
-              "height": 72.390625,
-              "visiblePx": 72.390625,
+              "name": "Nasdaq Composite",
+              "top": 292.203125,
+              "bottom": 345.59375,
+              "height": 53.390625,
+              "visiblePx": 53.390625,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
             },
             {
               "i": 2,
-              "name": "Nasdaq Composite",
-              "top": 361.390625,
+              "name": "Hang Seng Index",
+              "top": 345.59375,
               "bottom": 414.78125,
-              "height": 53.390625,
-              "visiblePx": 28.609375,
+              "height": 69.1875,
+              "visiblePx": 44.40625,
               "startsInView": true,
               "fullyInView": false,
-              "fraction": 0.5358501609599063
+              "fraction": 0.6418247515808492
+            }
+          ],
+          "viewport": "667x390"
+        },
+        {
+          "viewportH": 390,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 154.390625,
+            "height": 116,
+            "visiblePx": 116,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 154.390625,
+            "bottom": 838.671875,
+            "height": 684.28125,
+            "visiblePx": 235.609375,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.34431657304653607
+          },
+          "table": {
+            "top": 193.453125,
+            "bottom": 415.28125,
+            "height": 221.828125,
+            "visiblePx": 196.546875,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.8860322603366908
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 220.3125,
+              "bottom": 292.203125,
+              "height": 71.890625,
+              "visiblePx": 71.890625,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
+              "name": "Nasdaq Composite",
+              "top": 292.203125,
+              "bottom": 345.59375,
+              "height": 53.390625,
+              "visiblePx": 53.390625,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 345.59375,
+              "bottom": 414.78125,
+              "height": 69.1875,
+              "visiblePx": 44.40625,
+              "startsInView": true,
+              "fullyInView": false,
+              "fraction": 0.6418247515808492
             }
           ],
           "viewport": "667x390"
@@ -873,7 +1329,7 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 310.875,
               "bottom": 366.96875,
               "height": 56.09375,
@@ -884,7 +1340,7 @@
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
+              "name": "Nasdaq Composite",
               "top": 366.96875,
               "bottom": 423.5625,
               "height": 56.59375,
@@ -895,7 +1351,83 @@
             },
             {
               "i": 2,
+              "name": "Hang Seng Index",
+              "top": 423.5625,
+              "bottom": 480.15625,
+              "height": 56.59375,
+              "visiblePx": 56.59375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            }
+          ],
+          "viewport": "1280x800"
+        },
+        {
+          "viewportH": 800,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 227.984375,
+            "height": 189.59375,
+            "visiblePx": 189.59375,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 227.984375,
+            "bottom": 923.359375,
+            "height": 695.375,
+            "visiblePx": 572.015625,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.8226002157109473
+          },
+          "table": {
+            "top": 288.8125,
+            "bottom": 480.65625,
+            "height": 191.84375,
+            "visiblePx": 191.84375,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 310.875,
+              "bottom": 366.96875,
+              "height": 56.09375,
+              "visiblePx": 56.09375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
               "name": "Nasdaq Composite",
+              "top": 366.96875,
+              "bottom": 423.5625,
+              "height": 56.59375,
+              "visiblePx": 56.59375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
               "top": 423.5625,
               "bottom": 480.15625,
               "height": 56.59375,
@@ -923,7 +1455,14 @@
         "hsiPeHas3690": false,
         "hsiPeHas1997": false,
         "tmcrHas200DayMark": false,
-        "previewBannerVisible": true
+        "previewBannerVisible": true,
+        "snapshotIndexOrder": [
+          "Dow Jones Industrial Average",
+          "Nasdaq Composite",
+          "Hang Seng Index"
+        ],
+        "subtitle": "Dow Jones, Nasdaq Composite, and Hang Seng gainers",
+        "pageTitle": "Market briefing: Dow Jones, Nasdaq Composite, and Hang Seng gainers"
       },
       "contentRulesPass": true,
       "heroNoCharts": true,
@@ -963,19 +1502,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 288,
               "clientWidth": 288,
               "overflow": 0
@@ -1017,19 +1556,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 328,
               "clientWidth": 328,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 328,
               "clientWidth": 328,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 328,
               "clientWidth": 328,
               "overflow": 0
@@ -1071,19 +1610,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 358,
               "clientWidth": 358,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 358,
               "clientWidth": 358,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 358,
               "clientWidth": 358,
               "overflow": 0
@@ -1125,19 +1664,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 398,
               "clientWidth": 398,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 398,
               "clientWidth": 398,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 398,
               "clientWidth": 398,
               "overflow": 0
@@ -1179,19 +1718,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 544,
               "clientWidth": 544,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 544,
               "clientWidth": 544,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 627,
               "clientWidth": 627,
               "overflow": 0
@@ -1233,19 +1772,19 @@
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1",
+              "selector": "#name-ibm-1",
               "scrollWidth": 536,
               "clientWidth": 536,
               "overflow": 0
             },
             {
-              "selector": "#name-2015-hk-1 .name-chart",
+              "selector": "#name-ibm-1 .name-chart",
               "scrollWidth": 536,
               "clientWidth": 536,
               "overflow": 0
             },
             {
-              "selector": "#hang-seng .index-charts",
+              "selector": "#dow-jones .index-charts",
               "scrollWidth": 784,
               "clientWidth": 784,
               "overflow": 0
@@ -1339,32 +1878,108 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 304.265625,
-              "bottom": 471.09375,
-              "height": 166.828125,
-              "visiblePx": 166.828125,
+              "bottom": 483.9375,
+              "height": 179.671875,
+              "visiblePx": 179.671875,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
-              "top": 478.28125,
-              "bottom": 657.953125,
-              "height": 179.671875,
-              "visiblePx": 89.71875,
+              "name": "Nasdaq Composite",
+              "top": 491.125,
+              "bottom": 651,
+              "height": 159.875,
+              "visiblePx": 76.875,
               "startsInView": true,
               "fullyInView": false,
-              "fraction": 0.4993477693712497
+              "fraction": 0.4808444096950743
             },
             {
               "i": 2,
-              "name": "Nasdaq Composite",
-              "top": 665.140625,
+              "name": "Hang Seng Index",
+              "top": 658.1875,
               "bottom": 825.015625,
+              "height": 166.828125,
+              "visiblePx": 0,
+              "startsInView": false,
+              "fullyInView": false,
+              "fraction": 0
+            }
+          ],
+          "viewport": "320x568"
+        },
+        {
+          "viewportH": 568,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 255.28125,
+            "height": 216.890625,
+            "visiblePx": 216.890625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 255.28125,
+            "bottom": 1608.28125,
+            "height": 1353,
+            "visiblePx": 312.71875,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.231129896526238
+          },
+          "table": {
+            "top": 304.265625,
+            "bottom": 825.015625,
+            "height": 520.75,
+            "visiblePx": 263.734375,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.5064510321651464
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 304.265625,
+              "bottom": 483.9375,
+              "height": 179.671875,
+              "visiblePx": 179.671875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
+              "name": "Nasdaq Composite",
+              "top": 491.125,
+              "bottom": 651,
               "height": 159.875,
+              "visiblePx": 76.875,
+              "startsInView": true,
+              "fullyInView": false,
+              "fraction": 0.4808444096950743
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 658.1875,
+              "bottom": 825.015625,
+              "height": 166.828125,
               "visiblePx": 0,
               "startsInView": false,
               "fullyInView": false,
@@ -1415,20 +2030,9 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
-              "top": 304.265625,
-              "bottom": 471.09375,
-              "height": 166.828125,
-              "visiblePx": 166.828125,
-              "startsInView": true,
-              "fullyInView": true,
-              "fraction": 1
-            },
-            {
-              "i": 1,
               "name": "Dow Jones Industrial Average",
-              "top": 478.28125,
-              "bottom": 657.953125,
+              "top": 304.265625,
+              "bottom": 483.9375,
               "height": 179.671875,
               "visiblePx": 179.671875,
               "startsInView": true,
@@ -1436,15 +2040,102 @@
               "fraction": 1
             },
             {
-              "i": 2,
+              "i": 1,
               "name": "Nasdaq Composite",
-              "top": 665.140625,
-              "bottom": 825.015625,
+              "top": 491.125,
+              "bottom": 651,
               "height": 159.875,
-              "visiblePx": 54.859375,
+              "visiblePx": 159.875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 658.1875,
+              "bottom": 825.015625,
+              "height": 166.828125,
+              "visiblePx": 61.8125,
               "startsInView": true,
               "fullyInView": false,
-              "fraction": 0.3431391712275215
+              "fraction": 0.37051606256439074
+            }
+          ],
+          "viewport": "320x720"
+        },
+        {
+          "viewportH": 720,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 255.28125,
+            "height": 216.890625,
+            "visiblePx": 216.890625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 255.28125,
+            "bottom": 1608.28125,
+            "height": 1353,
+            "visiblePx": 464.71875,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.34347283813747226
+          },
+          "table": {
+            "top": 304.265625,
+            "bottom": 825.015625,
+            "height": 520.75,
+            "visiblePx": 415.734375,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.798337734037446
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 304.265625,
+              "bottom": 483.9375,
+              "height": 179.671875,
+              "visiblePx": 179.671875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
+              "name": "Nasdaq Composite",
+              "top": 491.125,
+              "bottom": 651,
+              "height": 159.875,
+              "visiblePx": 159.875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 658.1875,
+              "bottom": 825.015625,
+              "height": 166.828125,
+              "visiblePx": 61.8125,
+              "startsInView": true,
+              "fullyInView": false,
+              "fraction": 0.37051606256439074
             }
           ],
           "viewport": "320x720"
@@ -1491,20 +2182,20 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 264.671875,
-              "bottom": 431.5,
-              "height": 166.828125,
-              "visiblePx": 166.828125,
+              "bottom": 424.546875,
+              "height": 159.875,
+              "visiblePx": 159.875,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
-              "top": 438.6875,
-              "bottom": 598.5625,
+              "name": "Nasdaq Composite",
+              "top": 431.734375,
+              "bottom": 591.609375,
               "height": 159.875,
               "visiblePx": 159.875,
               "startsInView": true,
@@ -1513,11 +2204,87 @@
             },
             {
               "i": 2,
-              "name": "Nasdaq Composite",
-              "top": 605.75,
+              "name": "Hang Seng Index",
+              "top": 598.796875,
               "bottom": 765.625,
+              "height": 166.828125,
+              "visiblePx": 166.828125,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            }
+          ],
+          "viewport": "360x800"
+        },
+        {
+          "viewportH": 800,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 215.6875,
+            "height": 177.296875,
+            "visiblePx": 177.296875,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 215.6875,
+            "bottom": 1450.515625,
+            "height": 1234.828125,
+            "visiblePx": 584.3125,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.47319338470687977
+          },
+          "table": {
+            "top": 264.671875,
+            "bottom": 765.625,
+            "height": 500.953125,
+            "visiblePx": 500.953125,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 264.671875,
+              "bottom": 424.546875,
               "height": 159.875,
               "visiblePx": 159.875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
+              "name": "Nasdaq Composite",
+              "top": 431.734375,
+              "bottom": 591.609375,
+              "height": 159.875,
+              "visiblePx": 159.875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 598.796875,
+              "bottom": 765.625,
+              "height": 166.828125,
+              "visiblePx": 166.828125,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
@@ -1567,20 +2334,20 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 245.046875,
-              "bottom": 404.921875,
-              "height": 159.875,
-              "visiblePx": 159.875,
+              "bottom": 385.5,
+              "height": 140.453125,
+              "visiblePx": 140.453125,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
-              "top": 412.109375,
-              "bottom": 552.5625,
+              "name": "Nasdaq Composite",
+              "top": 392.6875,
+              "bottom": 533.140625,
               "height": 140.453125,
               "visiblePx": 140.453125,
               "startsInView": true,
@@ -1589,11 +2356,87 @@
             },
             {
               "i": 2,
-              "name": "Nasdaq Composite",
-              "top": 559.75,
+              "name": "Hang Seng Index",
+              "top": 540.328125,
               "bottom": 700.203125,
+              "height": 159.875,
+              "visiblePx": 159.875,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            }
+          ],
+          "viewport": "390x844"
+        },
+        {
+          "viewportH": 844,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 196.0625,
+            "height": 157.671875,
+            "visiblePx": 157.671875,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 196.0625,
+            "bottom": 1330.71875,
+            "height": 1134.65625,
+            "visiblePx": 647.9375,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.5710429920956237
+          },
+          "table": {
+            "top": 245.046875,
+            "bottom": 700.203125,
+            "height": 455.15625,
+            "visiblePx": 455.15625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 245.046875,
+              "bottom": 385.5,
               "height": 140.453125,
               "visiblePx": 140.453125,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
+              "name": "Nasdaq Composite",
+              "top": 392.6875,
+              "bottom": 533.140625,
+              "height": 140.453125,
+              "visiblePx": 140.453125,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
+              "top": 540.328125,
+              "bottom": 700.203125,
+              "height": 159.875,
+              "visiblePx": 159.875,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
@@ -1643,7 +2486,7 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 248.125,
               "bottom": 388.578125,
               "height": 140.453125,
@@ -1654,7 +2497,7 @@
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
+              "name": "Nasdaq Composite",
               "top": 395.765625,
               "bottom": 536.21875,
               "height": 140.453125,
@@ -1665,7 +2508,83 @@
             },
             {
               "i": 2,
+              "name": "Hang Seng Index",
+              "top": 543.40625,
+              "bottom": 683.859375,
+              "height": 140.453125,
+              "visiblePx": 140.453125,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            }
+          ],
+          "viewport": "430x932"
+        },
+        {
+          "viewportH": 932,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 199.140625,
+            "height": 160.75,
+            "visiblePx": 160.75,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 199.140625,
+            "bottom": 1260,
+            "height": 1060.859375,
+            "visiblePx": 732.859375,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.6908167022608439
+          },
+          "table": {
+            "top": 248.125,
+            "bottom": 683.859375,
+            "height": 435.734375,
+            "visiblePx": 435.734375,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 248.125,
+              "bottom": 388.578125,
+              "height": 140.453125,
+              "visiblePx": 140.453125,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
               "name": "Nasdaq Composite",
+              "top": 395.765625,
+              "bottom": 536.21875,
+              "height": 140.453125,
+              "visiblePx": 140.453125,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
               "top": 543.40625,
               "bottom": 683.859375,
               "height": 140.453125,
@@ -1699,12 +2618,12 @@
           },
           "snapshot": {
             "top": 154.34375,
-            "bottom": 822.703125,
-            "height": 668.359375,
+            "bottom": 795.515625,
+            "height": 641.171875,
             "visiblePx": 235.65625,
             "startsInView": true,
             "fullyInView": false,
-            "fraction": 0.35258912916423146
+            "fraction": 0.3675399049591812
           },
           "table": {
             "top": 193.390625,
@@ -1719,29 +2638,105 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 220.25,
-              "bottom": 272.609375,
-              "height": 52.359375,
-              "visiblePx": 52.359375,
+              "bottom": 291.59375,
+              "height": 71.34375,
+              "visiblePx": 71.34375,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
-              "top": 272.609375,
+              "name": "Nasdaq Composite",
+              "top": 291.59375,
               "bottom": 344.953125,
-              "height": 72.34375,
-              "visiblePx": 72.34375,
+              "height": 53.359375,
+              "visiblePx": 53.359375,
               "startsInView": true,
               "fullyInView": true,
               "fraction": 1
             },
             {
               "i": 2,
+              "name": "Hang Seng Index",
+              "top": 344.953125,
+              "bottom": 398.3125,
+              "height": 53.359375,
+              "visiblePx": 45.046875,
+              "startsInView": true,
+              "fullyInView": false,
+              "fraction": 0.844216691068814
+            }
+          ],
+          "viewport": "667x390"
+        },
+        {
+          "viewportH": 390,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 154.34375,
+            "height": 115.953125,
+            "visiblePx": 115.953125,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 154.34375,
+            "bottom": 795.515625,
+            "height": 641.171875,
+            "visiblePx": 235.65625,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.3675399049591812
+          },
+          "table": {
+            "top": 193.390625,
+            "bottom": 399.3125,
+            "height": 205.921875,
+            "visiblePx": 196.609375,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.9547765384323545
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 220.25,
+              "bottom": 291.59375,
+              "height": 71.34375,
+              "visiblePx": 71.34375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
               "name": "Nasdaq Composite",
+              "top": 291.59375,
+              "bottom": 344.953125,
+              "height": 53.359375,
+              "visiblePx": 53.359375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
               "top": 344.953125,
               "bottom": 398.3125,
               "height": 53.359375,
@@ -1795,7 +2790,7 @@
           "rows": [
             {
               "i": 0,
-              "name": "Hang Seng Index",
+              "name": "Dow Jones Industrial Average",
               "top": 310.84375,
               "bottom": 366.4375,
               "height": 55.59375,
@@ -1806,7 +2801,7 @@
             },
             {
               "i": 1,
-              "name": "Dow Jones Industrial Average",
+              "name": "Nasdaq Composite",
               "top": 366.4375,
               "bottom": 423.03125,
               "height": 56.59375,
@@ -1817,7 +2812,83 @@
             },
             {
               "i": 2,
+              "name": "Hang Seng Index",
+              "top": 423.03125,
+              "bottom": 479.625,
+              "height": 56.59375,
+              "visiblePx": 56.59375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            }
+          ],
+          "viewport": "1280x800"
+        },
+        {
+          "viewportH": 800,
+          "previewBanner": {
+            "top": 0,
+            "bottom": 38.390625,
+            "height": 38.390625,
+            "visiblePx": 38.390625,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "masthead": {
+            "top": 38.390625,
+            "bottom": 227.96875,
+            "height": 189.578125,
+            "visiblePx": 189.578125,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "snapshot": {
+            "top": 227.96875,
+            "bottom": 923.328125,
+            "height": 695.359375,
+            "visiblePx": 572.03125,
+            "startsInView": true,
+            "fullyInView": false,
+            "fraction": 0.8226411702581848
+          },
+          "table": {
+            "top": 288.78125,
+            "bottom": 480.625,
+            "height": 191.84375,
+            "visiblePx": 191.84375,
+            "startsInView": true,
+            "fullyInView": true,
+            "fraction": 1
+          },
+          "chartsInHero": false,
+          "rows": [
+            {
+              "i": 0,
+              "name": "Dow Jones Industrial Average",
+              "top": 310.84375,
+              "bottom": 366.4375,
+              "height": 55.59375,
+              "visiblePx": 55.59375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 1,
               "name": "Nasdaq Composite",
+              "top": 366.4375,
+              "bottom": 423.03125,
+              "height": 56.59375,
+              "visiblePx": 56.59375,
+              "startsInView": true,
+              "fullyInView": true,
+              "fraction": 1
+            },
+            {
+              "i": 2,
+              "name": "Hang Seng Index",
               "top": 423.03125,
               "bottom": 479.625,
               "height": 56.59375,
@@ -1845,7 +2916,14 @@
         "hsiPeHas3690": false,
         "hsiPeHas1997": false,
         "tmcrHas200DayMark": false,
-        "previewBannerVisible": true
+        "previewBannerVisible": true,
+        "snapshotIndexOrder": [
+          "Dow Jones Industrial Average",
+          "Nasdaq Composite",
+          "Hang Seng Index"
+        ],
+        "subtitle": "Dow Jones, Nasdaq Composite, and Hang Seng gainers",
+        "pageTitle": "Market briefing: Dow Jones, Nasdaq Composite, and Hang Seng gainers"
       },
       "contentRulesPass": true,
       "heroNoCharts": true,
@@ -1863,8 +2941,17 @@
     "heroNoCharts": true,
     "staticLeaks": [],
     "firstScreenNotes": {
-      "320x568_dow_fraction": 0.4973971889640812,
-      "667x390_nasdaq_starts_in_view": true
+      "320x568": {
+        "dow_fraction": 1,
+        "nasdaq_fraction": 0.4766546447022127,
+        "hang_seng_fraction": 0
+      },
+      "320x720": {
+        "dow_fraction": 1,
+        "nasdaq_fraction": 1,
+        "hang_seng_fraction": 0.3649723860338856
+      },
+      "667x390_hang_seng_fraction": 0.6418247515808492
     }
   }
 }

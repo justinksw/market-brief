@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pages acceptance proof for market-brief v3 PREVIEW (Chromium + WebKit)."""
+"""Pages acceptance proof for market-brief v4 PREVIEW (Chromium + WebKit)."""
 from __future__ import annotations
 
 import json
@@ -34,9 +34,9 @@ OVERFLOW_JS = """
     'html', 'body',
     '.masthead-wrap',
     '#snapshot',
-    '#name-2015-hk-1',
-    '#name-2015-hk-1 .name-chart',
-    '#hang-seng .index-charts',
+    '#name-ibm-1',
+    '#name-ibm-1 .name-chart',
+    '#dow-jones .index-charts',
     '#sources'
   ];
   const results = [];
@@ -113,6 +113,10 @@ CONTENT_CHECKS_JS = """
   const nasdaqPeText = [...document.querySelectorAll('#nasdaq .chart-title')].map(e => e.textContent);
   const hsiPeTitles = [...document.querySelectorAll('#hang-seng .chart-title')].map(e => e.textContent);
   const hsiPeFrame = document.querySelector('#hang-seng .chart-figure:nth-of-type(3) .chart-frame');
+  const dowFirst = [...document.querySelectorAll('#snapshot tbody tr')].map((tr) => {
+    const raw = (tr.querySelector('.index-name, th')?.textContent || '').trim();
+    return raw.split('\\n')[0].replace(/[+−][0-9.,]+%$/, '').trim();
+  });
   const hsiPeLabelText = hsiPeFrame
     ? [...hsiPeFrame.querySelectorAll('text')]
         .filter((t) => {
@@ -133,6 +137,9 @@ CONTENT_CHECKS_JS = """
     hsiPeHas1997: /1997\\.HK/.test(hsiPeLabelText),
     tmcrHas200DayMark: /200-day US\\$/i.test(tmcrText),
     previewBannerVisible: !!document.querySelector('.preview-banner'),
+    snapshotIndexOrder: dowFirst,
+    subtitle: document.querySelector('.masthead-subtitle')?.textContent || '',
+    pageTitle: document.title,
   };
 }
 """
@@ -152,6 +159,13 @@ def measure_taps(page) -> dict:
     return {"count": len(items), "below44": below}
 
 
+def _rows(fs_list: list, viewport: str) -> list:
+    for fs in fs_list:
+        if fs.get("viewport") == viewport:
+            return fs.get("rows") or []
+    return []
+
+
 def static_leak_checks() -> dict:
     raw = HTML.read_text(encoding="utf-8")
     patterns = [
@@ -164,7 +178,11 @@ def static_leak_checks() -> dict:
     for pat, label in patterns:
         if re.search(pat, raw, re.I):
             leaks.append(label)
-    return {"htmlLeaks": leaks, "usesV3Css": "market-brief-v3.css" in raw, "hasPreviewBanner": "preview-banner" in raw}
+    return {
+        "htmlLeaks": leaks,
+        "usesV4Css": "market-brief-v4.css" in raw,
+        "hasPreviewBanner": "preview-banner" in raw,
+    }
 
 
 def run_engine(browser_type: str, p) -> dict:
@@ -182,6 +200,11 @@ def run_engine(browser_type: str, p) -> dict:
 
         shot_dir = SHOTS / browser_type
         shot_dir.mkdir(parents=True, exist_ok=True)
+
+        fs = page.evaluate(FIRST_SCREEN_JS)
+        fs["viewport"] = vp_name
+        first_screen.append(fs)
+
         page.screenshot(path=str(shot_dir / f"first-{vp_name}.png"), full_page=False)
 
         if vp_name == "390x844" and browser_type == "chromium":
@@ -192,32 +215,29 @@ def run_engine(browser_type: str, p) -> dict:
             page.wait_for_timeout(150)
             page.locator("#how-to-read").screenshot(path=str(shot_dir / "how-to-read-open-390x844.png"))
             page.locator("#how-to-read details.method-details").first.click()
-            page.locator("#name-2015-hk-1").scroll_into_view_if_needed()
-            page.locator("#name-2015-hk-1 .name-chart").screenshot(
-                path=str(shot_dir / "chart-liauto-390x844.png")
+            page.locator("#dow-jones .chart-figure").first.scroll_into_view_if_needed()
+            page.locator("#dow-jones .chart-figure").first.screenshot(
+                path=str(shot_dir / "dow-pct-change-390x844.png")
+            )
+            page.locator("#name-ibm-1").scroll_into_view_if_needed()
+            page.locator("#name-ibm-1").screenshot(
+                path=str(shot_dir / "name-ibm-390x844.png")
             )
             page.locator("#name-tmcr-9").scroll_into_view_if_needed()
             page.locator("#name-tmcr-9 .name-chart").screenshot(
                 path=str(shot_dir / "chart-tmcr-390x844.png")
             )
-            page.locator("#hang-seng .index-charts").screenshot(
-                path=str(shot_dir / "hsi-comparisons-390x844.png")
+            page.locator("#dow-jones .index-charts").screenshot(
+                path=str(shot_dir / "dow-comparisons-390x844.png")
             )
             page.locator("#sources").scroll_into_view_if_needed()
             page.screenshot(path=str(shot_dir / "sources-390x844.png"), full_page=False)
 
         if vp_name == "320x720" and browser_type == "chromium":
-            page.locator("#hang-seng figure:nth-of-type(2)").screenshot(
-                path=str(shot_dir / "hsi-market-value-320x720.png")
+            page.locator("#name-ibm-1").scroll_into_view_if_needed()
+            page.locator("#name-ibm-1").screenshot(
+                path=str(shot_dir / "name-ibm-320x720.png")
             )
-            page.locator("#name-2015-hk-1").scroll_into_view_if_needed()
-            page.locator("#name-2015-hk-1").screenshot(
-                path=str(shot_dir / "name-liauto-320x720.png")
-            )
-
-        fs = page.evaluate(FIRST_SCREEN_JS)
-        fs["viewport"] = vp_name
-        first_screen.append(fs)
 
         if w in OVERFLOW_WIDTHS and vp_name in (
             "320x568",
@@ -244,8 +264,21 @@ def run_engine(browser_type: str, p) -> dict:
         if not r.get("missing") and r.get("overflow", 0) != 0
     )
     tap_fails = sum(len(t["below44"]) for t in tap_report)
+    order_ok = (
+        content_checks
+        and content_checks.get("pageTitle")
+        == "Market briefing: Dow Jones, Nasdaq Composite, and Hang Seng gainers"
+        and content_checks.get("subtitle") == "Dow Jones, Nasdaq Composite, and Hang Seng gainers"
+        and content_checks.get("snapshotIndexOrder")
+        == [
+            "Dow Jones Industrial Average",
+            "Nasdaq Composite",
+            "Hang Seng Index",
+        ]
+    )
     content_ok = (
         content_checks
+        and order_ok
         and not content_checks.get("hasNasdaqPeChart")
         and not content_checks.get("hsiPeHas2015")
         and not content_checks.get("hsiPeHas3690")
@@ -293,27 +326,21 @@ def main() -> None:
         "contentRulesPass": ch.get("contentRulesPass"),
         "heroNoCharts": ch.get("heroNoCharts"),
         "staticLeaks": static.get("htmlLeaks"),
-        "firstScreenNotes": {
-            "320x568_dow_fraction": next(
-                (
-                    r["fraction"]
-                    for r in (ch.get("firstScreen") or [{}])[0].get("rows", [])
-                    if r.get("i") == 1
-                ),
-                None,
+        "firstScreenNotes": (lambda fs_list: {
+            "320x568": {
+                "dow_fraction": next((r["fraction"] for r in _rows(fs_list, "320x568") if r.get("i") == 0), None),
+                "nasdaq_fraction": next((r["fraction"] for r in _rows(fs_list, "320x568") if r.get("i") == 1), None),
+                "hang_seng_fraction": next((r["fraction"] for r in _rows(fs_list, "320x568") if r.get("i") == 2), None),
+            },
+            "320x720": {
+                "dow_fraction": next((r["fraction"] for r in _rows(fs_list, "320x720") if r.get("i") == 0), None),
+                "nasdaq_fraction": next((r["fraction"] for r in _rows(fs_list, "320x720") if r.get("i") == 1), None),
+                "hang_seng_fraction": next((r["fraction"] for r in _rows(fs_list, "320x720") if r.get("i") == 2), None),
+            },
+            "667x390_hang_seng_fraction": next(
+                (r["fraction"] for r in _rows(fs_list, "667x390") if r.get("i") == 2), None
             ),
-            "667x390_nasdaq_starts_in_view": next(
-                (
-                    r["startsInView"]
-                    for r in next(
-                        (fs for fs in ch.get("firstScreen", []) if fs.get("viewport") == "667x390"),
-                        {},
-                    ).get("rows", [])
-                    if r.get("i") == 2
-                ),
-                None,
-            ),
-        },
+        })(ch.get("firstScreen") or []),
     }
     OUT.write_text(json.dumps(results, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {OUT}")

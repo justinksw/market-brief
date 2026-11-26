@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="416" viewBox="0 0 820 416" role="img" aria-labelledby="title desc">
+<title>Nasdaq Composite: percentage change among the top 10</title>
+<rect width="820" height="416" fill="#F6F4EF"/>
+<desc>Nasdaq Composite: percentage change among the top 10. Nasdaq Composite top 10 · Wednesday 25 Nov 2026 official regular-session closes
+Versus Tuesday 24 Nov official close · US dollars (USD)</desc>
+<text x="24.00" y="26.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="16" font-weight="700" fill="#16181D" text-anchor="start">Nasdaq Composite: percentage change among the top 10</text>
+<text x="24.00" y="46.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#5A5E66" text-anchor="start">Nasdaq Composite top 10 · Wednesday 25 Nov 2026 official regular-session closes</text>
+<text x="24.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#5A5E66" text-anchor="start">Versus Tuesday 24 Nov official close · US dollars (USD)</text>
+<line x1="200.00" y1="78.00" x2="200.00" y2="364.00" stroke="#CFCBC3" stroke-width="1" stroke-linecap="round"/>
+<line x1="200.00" y1="78.00" x2="200.00" y2="364.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<text x="200.00" y="380.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">0%</text>
+<line x1="413.96" y1="78.00" x2="413.96" y2="364.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<text x="413.96" y="380.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">50%</text>
+<line x1="627.92" y1="78.00" x2="627.92" y2="364.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<text x="627.92" y="380.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">100%</text>
+<text x="496.00" y="396.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#5A5E66" text-anchor="middle">Percentage change versus the prior official close</text>
+<text x="188.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">BioNexus (BGLC)</text>
+<rect x="200.00" y="92.00" width="501.69" height="12.00" rx="2" fill="#3F434C"/>
+<text x="709.69" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+117.24%</text>
+<text x="188.00" y="130.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">Radiopharm (RADX)</text>
+<rect x="200.00" y="120.00" width="265.31" height="12.00" rx="2" fill="#3F434C"/>
+<text x="473.31" y="130.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+62.00%</text>
+<text x="188.00" y="158.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">NeuroSense (NRSN)</text>
+<rect x="200.00" y="148.00" width="256.75" height="12.00" rx="2" fill="#3F434C"/>
+<text x="464.75" y="158.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+60.00%</text>
+<text x="188.00" y="186.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">LeonaBio (LONA)</text>
+<rect x="200.00" y="176.00" width="250.25" height="12.00" rx="2" fill="#3F434C"/>
+<text x="458.25" y="186.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+58.48%</text>
+<text x="188.00" y="214.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">Erayak (RAYA)</text>
+<rect x="200.00" y="204.00" width="231.72" height="12.00" rx="2" fill="#3F434C"/>
+<text x="439.72" y="214.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+54.15%</text>
+<text x="188.00" y="242.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">Focus Universal (FCUV)</text>
+<rect x="200.00" y="232.00" width="227.31" height="12.00" rx="2" fill="#3F434C"/>
+<text x="435.31" y="242.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+53.12%</text>
+<text x="188.00" y="270.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">Nexus (NXAT)</text>
+<rect x="200.00" y="260.00" width="222.86" height="12.00" rx="2" fill="#3F434C"/>
+<text x="430.86" y="270.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+52.08%</text>
+<text x="188.00" y="298.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">Aligos (ALGS)</text>
+<rect x="200.00" y="288.00" width="221.15" height="12.00" rx="2" fill="#3F434C"/>
+<text x="429.15" y="298.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+51.68%</text>
+<text x="188.00" y="326.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">Metals Royalty (TMCR)</text>
+<rect x="200.00" y="316.00" width="192.69" height="12.00" rx="2" fill="#3F434C"/>
+<text x="400.69" y="326.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+45.03%</text>
+<text x="188.00" y="354.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="11" font-weight="normal" fill="#16181D" text-anchor="end">Park Ha (BYAH)</text>
+<rect x="200.00" y="344.00" width="192.56" height="12.00" rx="2" fill="#3F434C"/>
+<text x="400.56" y="354.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="10" font-weight="normal" fill="#16181D" text-anchor="start">+45.00%</text>
+</svg>

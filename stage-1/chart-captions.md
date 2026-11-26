@@ -10,9 +10,9 @@ The 50-day and 200-day averages and the 14-day RSI use official regular-session 
 
 Each of the 30 top gainers has one three-part chart: the 52-week range, the 14-day RSI, and the last price or official close versus the 50-day and 200-day averages.
 
-**Hang Seng names.** The marker labeled “Last” is the Thursday 26 November 2026 morning last price (a delayed quote, not the day’s official close). The 50-day and 200-day averages, and the 14-day RSI, still use official closes through Wednesday 25 November only, so the Thursday last is being compared with levels that stop at Wednesday’s official close.
-
 **Dow and Nasdaq names.** The marker labeled “Close” is the official regular-session close on Wednesday 25 November 2026. The averages and the RSI use the same official-close series through that Wednesday.
+
+**Hang Seng names.** The marker labeled “Last” is the Thursday 26 November 2026 morning last price (a delayed quote, not the day’s official close). The 50-day and 200-day averages, and the 14-day RSI, still use official closes through Wednesday 25 November only, so the Thursday last is being compared with levels that stop at Wednesday’s official close.
 
 ### 52-week range
 
@@ -36,15 +36,15 @@ There is one set of comparison charts for each index’s top 10, not a separate 
 
 These three charts show the already-published percentage change for each name in that index’s top 10, in the same rank order as the briefing.
 
-- Hang Seng: Thursday 26 November 2026 morning last (delayed), not an official close, versus Wednesday 25 November’s official close. Amounts are in Hong Kong dollars in the briefing; the bars here show the percentage change.
 - Dow Jones Industrial Average: Wednesday 25 November official regular-session close versus Tuesday 24 November official close, in US dollars.
 - Nasdaq Composite: Wednesday 25 November official regular-session close versus Tuesday 24 November official close, in US dollars.
+- Hang Seng: Thursday 26 November 2026 morning last (delayed), not an official close, versus Wednesday 25 November’s official close. Amounts are in Hong Kong dollars in the briefing; the bars here show the percentage change.
 
 A rise of 4.31% means the last price or official close is 4.31% higher than the prior official close.
 
 ### Market value among the top 10
 
-These three charts show each company’s size on that index’s top 10 list: the share price multiplied by the number of shares, in the listing currency (Hong Kong dollars for Hang Seng names; US dollars for Dow and Nasdaq names).
+These three charts show each company’s size on that index’s top 10 list: the share price multiplied by the number of shares, in the listing currency (US dollars for Dow and Nasdaq names; Hong Kong dollars for Hang Seng names).
 
 The length of each bar uses a scale that can show both the largest and the smallest company on that list. Read the labeled amounts for the actual size. A bar that looks twice as long is not necessarily twice as large.
 
@@ -52,6 +52,6 @@ The length of each bar uses a scale that can show both the largest and the small
 
 Trailing P/E is the share price divided by the company’s earnings over the last 12 months. A higher figure means investors are paying more for each dollar of recent profit.
 
-- Hang Seng: seven of the ten names have a trailing P/E on this chart. No trailing P/E is shown for Li Auto (2015.HK), Meituan (3690.HK), or Wharf REIC (1997.HK), so those three names are not on the chart. Li Auto reported a net loss for the third quarter.
 - Dow Jones Industrial Average: all ten names have a trailing P/E, and all ten appear.
 - Nasdaq Composite: no trailing P/E is shown for any of the ten names, so there is no Nasdaq trailing P/E chart.
+- Hang Seng: seven of the ten names have a trailing P/E on this chart. No trailing P/E is shown for Li Auto (2015.HK), Meituan (3690.HK), or Wharf REIC (1997.HK), so those three names are not on the chart. Li Auto reported a net loss for the third quarter.
