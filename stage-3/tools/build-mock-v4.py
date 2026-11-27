@@ -17,6 +17,7 @@ REPORT = ROOT / "stage-1" / "report.md"
 OUT = ROOT / "docs" / "index.html"
 FIGURES = ROOT / "stage-3" / "mocks" / "figures-v4"
 ENABLE_HSI_CHARTS = True
+SHOW_PREVIEW_BANNER = False
 
 EXACT_TITLE = "Market briefing: Dow Jones, Nasdaq Composite, and Hang Seng gainers"
 DISPLAY_TITLE = "Market briefing"
@@ -748,11 +749,12 @@ def render_index(
 """
 
 
-def build(report_path: Path | None = None) -> str:
-    global REPORT, ENABLE_HSI_CHARTS
+def build(report_path: Path | None = None, *, preview_banner: bool = False) -> str:
+    global REPORT, ENABLE_HSI_CHARTS, SHOW_PREVIEW_BANNER
     if report_path is not None:
         REPORT = report_path
     ENABLE_HSI_CHARTS = REPORT.name != "report-2026-11-27.md"
+    SHOW_PREVIEW_BANNER = preview_banner
     md = REPORT.read_text(encoding="utf-8")
     if not md.endswith("\n"):
         md += "\n"
@@ -885,6 +887,12 @@ def build(report_path: Path | None = None) -> str:
     glossary_html = render_glossary(glossary, retrieval, method)
     sources_html = "".join(f"<p>{inline(p)}</p>" for p in sources)
 
+    banner_html = (
+        '  <p class="preview-banner" role="note"><span class="preview-banner-label">PREVIEW</span></p>\n'
+        if SHOW_PREVIEW_BANNER
+        else ""
+    )
+
     doc = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -896,8 +904,7 @@ def build(report_path: Path | None = None) -> str:
   <link rel="stylesheet" href="market-brief-v4.css">
 </head>
 <body>
-  <p class="preview-banner" role="note"><span class="preview-banner-label">PREVIEW</span></p>
-  <a class="skip-link" href="#main">Skip to briefing</a>
+{banner_html}  <a class="skip-link" href="#main">Skip to briefing</a>
   <header class="masthead-wrap" id="top">
     <div class="wrap">
       <header class="masthead">
@@ -949,8 +956,13 @@ if __name__ == "__main__":
         "--report",
         type=Path,
         default=ROOT / "stage-1" / "report-2026-11-27.md",
-        help="Markdown report to typeset (default: 27 Nov 2026 preview briefing)",
+        help="Markdown report to typeset (default: 27 Nov 2026 briefing)",
+    )
+    parser.add_argument(
+        "--preview",
+        action="store_true",
+        help="Emit the in-flow PREVIEW banner (off by default for LIVE/docs)",
     )
     args = parser.parse_args()
     report = args.report if args.report.is_absolute() else ROOT / args.report
-    build(report)
+    build(report, preview_banner=args.preview)
