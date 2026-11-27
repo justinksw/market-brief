@@ -7,6 +7,7 @@ or sources. Does not overwrite v1, v2, or v3 HTML.
 """
 from __future__ import annotations
 
+import argparse
 import html
 import re
 from pathlib import Path
@@ -15,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 REPORT = ROOT / "stage-1" / "report.md"
 OUT = ROOT / "docs" / "index.html"
 FIGURES = ROOT / "stage-3" / "mocks" / "figures-v4"
+ENABLE_HSI_CHARTS = True
 
 EXACT_TITLE = "Market briefing: Dow Jones, Nasdaq Composite, and Hang Seng gainers"
 DISPLAY_TITLE = "Market briefing"
@@ -193,6 +195,37 @@ CHART_GLOSSARY = [
     ),
 ]
 
+CHART_GLOSSARY_US_ONLY = [
+    (
+        "The charts in this briefing.",
+        "Each top gainer in the Dow Jones and Nasdaq Composite sections has one three-part chart: the 52-week range, the 14-day RSI, and the official close versus the 50-day and 200-day averages. The marker labeled “Close” is the official regular-session close on Wednesday 25 November 2026. The averages and the RSI use official closes through that Wednesday.",
+    ),
+    (
+        "52-week range chart.",
+        "The bar runs from the low of the past year to the high of the past year. The marker shows where the official close sits between those two points. “Near the low,” “mid-range,” or “near the high” has the same meaning as in the briefing.",
+    ),
+    (
+        "14-day RSI chart.",
+        "This is a 0–100 gauge of how strongly a share has risen or fallen over the past two weeks of official closes, ending on Wednesday 25 November for US names. Marks are shown near 30 and 70: readings near 70 or higher mean recent gains have been strong; readings near 30 or lower mean recent declines have been strong.",
+    ),
+    (
+        "Close versus the 50-day and 200-day averages.",
+        "The 50-day and 200-day averages are the average official closing prices over the past 50 and 200 trading days, ending on Wednesday 25 November. A close above an average is higher than that recent typical level; one below it is lower. No 200-day average is shown for The Metals Royalty Company (TMCR). Only 162 official daily closes were available, fewer than 200, so the 200-day mark is omitted.",
+    ),
+    (
+        "Percentage change among the top 10.",
+        "These charts show the already-published percentage change for each name in that index’s top 10, in the same rank order as the briefing.",
+    ),
+    (
+        "Market value among the top 10.",
+        "These charts show each company’s size on that index’s top 10 list in US dollars. The length of each bar uses a scale that can show both the largest and the smallest company on that list. Read the labeled amounts for the actual size. A bar that looks twice as long is not necessarily twice as large.",
+    ),
+    (
+        "Trailing P/E, where a figure is shown.",
+        "Trailing P/E is the share price divided by the company’s earnings over the last 12 months. On the Dow Jones Industrial Average chart, all ten names have a trailing P/E and all ten appear. The Nasdaq Composite has no trailing P/E chart because no trailing P/E is shown for any of its ten names.",
+    ),
+]
+
 
 def inline_svg(path: Path, css_class: str) -> str:
     raw = path.read_text(encoding="utf-8")
@@ -262,7 +295,15 @@ def crop_wide_comparison(svg: str) -> str:
     return head + "\n" + "\n".join(kept) + "\n</svg>"
 
 
+def should_render_name_chart(ticker: str) -> bool:
+    if ticker.endswith(".HK"):
+        return ENABLE_HSI_CHARTS and ticker in NAME_CHART
+    return ticker in NAME_CHART
+
+
 def render_name_chart(ticker: str) -> str:
+    if not should_render_name_chart(ticker):
+        return ""
     key = NAME_CHART[ticker]
     path = FIGURES / "per-name" / f"{key}-stack.svg"
     if not path.exists():
@@ -283,6 +324,8 @@ def render_name_chart(ticker: str) -> str:
 
 
 def render_index_charts(title: str) -> str:
+    if title == "Hang Seng Index" and not ENABLE_HSI_CHARTS:
+        return ""
     items = INDEX_CHARTS[title]
     parts = ['<div class="index-charts">']
     for key, heading in items:
@@ -412,27 +455,35 @@ def split_opening(paragraph: str) -> tuple[str, str, str, str]:
     """Split the opening paragraph typographically.
 
     Returns (short_asof, retrieval_sentence, method_notes, disclaimer).
-    Times and facts are taken from the source; the retrieval clause is
-    recapitalised as its own sentence after being moved out of the hero.
     """
-    raw = paragraph.replace("**", "")
+    raw = paragraph.strip()
     if not raw.endswith(DISCLAIMER):
         raise SystemExit("As-of paragraph does not end with the locked disclaimer.")
-    body = raw[: -len(DISCLAIMER)].rstrip()
-    if not body.endswith("."):
-        raise SystemExit("Opening body does not end with a period.")
+    body = raw[: -len(DISCLAIMER)].rstrip().rstrip(".")
 
+    new = re.match(r"^\*\*(As of.+?)\*\*\s*(.*)$", body, re.DOTALL)
+    if new:
+        short_asof = new.group(1).strip()
+        method = new.group(2).strip()
+        if not method:
+            raise SystemExit("Method notes missing after as-of split (2026-11-27 style).")
+        return short_asof, "", method, DISCLAIMER
+
+    plain = body.replace("**", "")
+    if not plain.endswith("."):
+        plain += "."
     prefix = (
         "As of Thursday 26 November 2026, about 09:39 HKT "
         "(20:39 ET on Wednesday 25 November), with figures retrieved between "
         "09:54:26 and 09:54:51 HKT (20:54 ET on 25 November). "
     )
-    if not body.startswith(prefix):
-        raise SystemExit(f"Opening as-of/retrieval clause did not match.\nGot: {body[:240]!r}")
-    method = body[len(prefix) :].strip()
-    if not method:
-        raise SystemExit("Method notes missing after as-of split.")
-    return SHORT_ASOF, RETRIEVAL_SENTENCE, method, DISCLAIMER
+    if plain.startswith(prefix):
+        method = plain[len(prefix) :].strip()
+        if not method:
+            raise SystemExit("Method notes missing after as-of split.")
+        return SHORT_ASOF, RETRIEVAL_SENTENCE, method, DISCLAIMER
+
+    raise SystemExit(f"Opening as-of clause did not match known formats.\nGot: {body[:240]!r}")
 
 
 def change_percent(cell: str) -> str | None:
@@ -454,15 +505,11 @@ def extract_figures(quant_first: str) -> list[tuple[str, str]]:
         raise SystemExit(f"No Last/Closed price in: {t[:120]!r}")
     items.append((m.group(1), m.group(2)))
 
-    m = re.search(rf"\bup ({MONEY}) from ", t)
+    m = re.search(rf"\bup ({MONEY}) from ({MONEY})", t)
     if not m:
-        raise SystemExit(f"No up-amount in: {t[:120]!r}")
+        raise SystemExit(f"No up-amount/prior in: {t[:120]!r}")
     items.append(("Change", "up " + m.group(1)))
-
-    m = re.search(rf"from (?:Wednesday’s official close of )?({MONEY})", t)
-    if not m:
-        raise SystemExit(f"No prior price in: {t[:160]!r}")
-    items.append(("Prior", m.group(1)))
+    items.append(("Prior", m.group(2)))
 
     if "Session so far:" in t:
         m = re.search(
@@ -505,13 +552,14 @@ def extract_figures(quant_first: str) -> list[tuple[str, str]]:
     items.append(("52-week", m.group(1)))
 
     m = re.search(
-        r"(?:About|Volume) ((?:[0-9][0-9,]*(?:\.[0-9]+)?(?: million)?|[0-9][0-9,]*) shares)",
+        r"(?:About|Volume) ((?:[0-9][0-9,]*(?:\.[0-9]+)?(?: million)?) shares)",
         t,
     )
     if not m:
         raise SystemExit(f"Volume failed: {t[:220]!r}")
     vol = m.group(1)
-    if t[m.start() :].startswith("About"):
+    prefix = t[m.start() : m.start() + 5]
+    if prefix.startswith("About"):
         items.append(("Volume", "About " + vol))
     else:
         items.append(("Volume", vol))
@@ -591,22 +639,26 @@ def render_snapshot(headers: list[str], rows: list[list[str]], notes: list[str])
 
 
 def render_glossary(items: list[tuple[str, str]], retrieval: str, method: str) -> str:
-    parts = [
-        '<div class="method-block">',
-        f"<p class='retrieval'>{esc(retrieval)}</p>",
+    chart_notes = CHART_GLOSSARY if ENABLE_HSI_CHARTS else CHART_GLOSSARY_US_ONLY
+    parts = ['<div class="method-block">']
+    if retrieval:
+        parts.append(f"<p class='retrieval'>{esc(retrieval)}</p>")
+    parts.extend(
+        [
         "<details class='method-details'>",
         "<summary>Price type, session hours, time zones, and currencies</summary>",
         f"<div class='details-body'><p>{inline(method)}</p></div>",
         "</details>",
         "</div>",
         '<div class="glossary">',
-    ]
+        ]
+    )
     for term, definition in items:
         parts.append("<details class='glossary-item'>")
         parts.append(f"<summary>{esc(term)}</summary>")
         parts.append(f"<div class='details-body'><p>{inline(definition)}</p></div>")
         parts.append("</details>")
-    for term, definition in CHART_GLOSSARY:
+    for term, definition in chart_notes:
         parts.append("<details class='glossary-item'>")
         parts.append(f"<summary>{esc(term)}</summary>")
         parts.append(f"<div class='details-body'><p>{inline(definition)}</p></div>")
@@ -696,7 +748,11 @@ def render_index(
 """
 
 
-def build() -> str:
+def build(report_path: Path | None = None) -> str:
+    global REPORT, ENABLE_HSI_CHARTS
+    if report_path is not None:
+        REPORT = report_path
+    ENABLE_HSI_CHARTS = REPORT.name != "report-2026-11-27.md"
     md = REPORT.read_text(encoding="utf-8")
     if not md.endswith("\n"):
         md += "\n"
@@ -736,6 +792,7 @@ def build() -> str:
         split = split_label(
             b[2],
             (
+                "Official close.",
                 "Last price and official close.",
                 "Open, high, and low.",
                 "Change.",
@@ -887,4 +944,13 @@ def build() -> str:
 
 
 if __name__ == "__main__":
-    build()
+    parser = argparse.ArgumentParser(description="Build market briefing HTML for GitHub Pages")
+    parser.add_argument(
+        "--report",
+        type=Path,
+        default=ROOT / "stage-1" / "report-2026-11-27.md",
+        help="Markdown report to typeset (default: 27 Nov 2026 preview briefing)",
+    )
+    args = parser.parse_args()
+    report = args.report if args.report.is_absolute() else ROOT / args.report
+    build(report)
