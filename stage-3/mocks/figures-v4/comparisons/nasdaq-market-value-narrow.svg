@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360.00" height="450.00" viewBox="0 0 360.00 450.00" role="img" aria-labelledby="title desc">
+<title>Nasdaq Composite: market value among the top 10</title>
+<desc>Nasdaq Composite: market value among the top 10. Nasdaq Composite top 10 · Wednesday 25 Nov 2026 official regular-session closes
+Versus Tuesday 24 Nov official close · US dollars (USD) Bar length uses a scale that can show both the largest and the smallest company on this list. Read the labeled amounts; a bar that looks twice as long is not necessarily twice as large.</desc>
+<rect width="360.00" height="450.00" fill="#F6F4EF"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="400.00" stroke="#CFCBC3" stroke-width="1" stroke-linecap="round"/>
+<line x1="50.85" y1="12.00" x2="50.85" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="90.02" y1="12.00" x2="90.02" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="141.80" y1="12.00" x2="141.80" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="180.97" y1="12.00" x2="180.97" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="220.14" y1="12.00" x2="220.14" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="271.92" y1="12.00" x2="271.92" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="311.09" y1="12.00" x2="311.09" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<text x="12.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">BioNexus (BGLC)</text>
+<text x="348.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$4.40 million</text>
+<rect x="12.00" y="28.00" width="122.57" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Radiopharm (RADX)</text>
+<text x="348.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$12.72 million</text>
+<rect x="12.00" y="68.00" width="182.56" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">NeuroSense (NRSN)</text>
+<text x="348.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$4.39 million</text>
+<rect x="12.00" y="108.00" width="122.44" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">LeonaBio (LONA)</text>
+<text x="348.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$35.44 million</text>
+<rect x="12.00" y="148.00" width="240.47" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Erayak (RAYA)</text>
+<text x="348.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$704,000</text>
+<rect x="12.00" y="188.00" width="19.02" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Focus Universal (FCUV)</text>
+<text x="348.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$5.55 million</text>
+<rect x="12.00" y="228.00" width="135.70" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Nexus (NXAT)</text>
+<text x="348.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$2.09 million</text>
+<rect x="12.00" y="268.00" width="80.50" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Aligos (ALGS)</text>
+<text x="348.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$14.12 million</text>
+<rect x="12.00" y="308.00" width="188.46" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Metals Royalty (TMCR)</text>
+<text x="348.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$147.72 million</text>
+<rect x="12.00" y="348.00" width="321.13" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Park Ha (BYAH)</text>
+<text x="348.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">US$22.63 million</text>
+<rect x="12.00" y="388.00" width="215.12" height="10.00" rx="2" fill="#3F434C"/>
+<text x="50.85" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$1 million</text>
+<text x="90.02" y="436.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$2 million</text>
+<text x="141.80" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$5 million</text>
+<text x="180.97" y="436.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$10 million</text>
+<text x="220.14" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$20 million</text>
+<text x="271.92" y="436.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$50 million</text>
+<text x="311.09" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">US$100 million</text>
+</svg>

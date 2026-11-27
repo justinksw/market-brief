@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="360.00" height="450.00" viewBox="0 0 360.00 450.00" role="img" aria-labelledby="title desc">
+<title>Dow Jones Industrial Average: percentage change among the top 10</title>
+<desc>Dow Jones Industrial Average: percentage change among the top 10. Dow Jones Industrial Average top 10 · Wednesday 25 Nov 2026 official regular-session closes
+Versus Tuesday 24 Nov official close · US dollars (USD)</desc>
+<rect width="360.00" height="450.00" fill="#F6F4EF"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="400.00" stroke="#CFCBC3" stroke-width="1" stroke-linecap="round"/>
+<line x1="12.00" y1="12.00" x2="12.00" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="96.94" y1="12.00" x2="96.94" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="181.87" y1="12.00" x2="181.87" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<line x1="266.81" y1="12.00" x2="266.81" y2="400.00" stroke="#EEEBE4" stroke-width="1" stroke-linecap="round"/>
+<text x="12.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">IBM</text>
+<text x="348.00" y="22.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+3.33%</text>
+<rect x="12.00" y="28.00" width="282.83" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Nike (NKE)</text>
+<text x="348.00" y="62.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+2.55%</text>
+<rect x="12.00" y="68.00" width="216.58" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Disney (DIS)</text>
+<text x="348.00" y="102.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+2.52%</text>
+<rect x="12.00" y="108.00" width="214.04" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Sherwin-Williams (SHW)</text>
+<text x="348.00" y="142.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+2.40%</text>
+<rect x="12.00" y="148.00" width="203.84" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Home Depot (HD)</text>
+<text x="348.00" y="182.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+2.14%</text>
+<rect x="12.00" y="188.00" width="181.76" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Salesforce (CRM)</text>
+<text x="348.00" y="222.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+2.04%</text>
+<rect x="12.00" y="228.00" width="173.27" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Visa (V)</text>
+<text x="348.00" y="262.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+1.83%</text>
+<rect x="12.00" y="268.00" width="155.43" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">Travelers (TRV)</text>
+<text x="348.00" y="302.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+1.49%</text>
+<rect x="12.00" y="308.00" width="126.55" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">3M (MMM)</text>
+<text x="348.00" y="342.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+1.44%</text>
+<rect x="12.00" y="348.00" width="122.31" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="normal" fill="#16181D" text-anchor="start">UnitedHealth (UNH)</text>
+<text x="348.00" y="382.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="12" font-weight="600" fill="#16181D" text-anchor="end">+1.26%</text>
+<rect x="12.00" y="388.00" width="107.02" height="10.00" rx="2" fill="#3F434C"/>
+<text x="12.00" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">0%</text>
+<text x="96.94" y="436.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">1%</text>
+<text x="181.87" y="426.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">2%</text>
+<text x="266.81" y="436.00" font-family="Source Sans 3, Noto Sans, sans-serif" font-size="9" font-weight="normal" fill="#5A5E66" text-anchor="middle">3%</text>
+</svg>
